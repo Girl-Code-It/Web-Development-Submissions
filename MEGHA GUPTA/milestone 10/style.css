@@ -1,0 +1,20 @@
+.content{
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 35%;
+    margin-top: 33%;
+    color: white;
+}
+
+.green{
+    color: green;
+}
+
+body{
+    background-image: url("foot.jpg");
+    background-size: cover;
+    opacity: 60%;
+}
+html{
+    height: 100%;
+}
