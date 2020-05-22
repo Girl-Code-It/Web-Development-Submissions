@@ -1,0 +1,19 @@
+.jumbotron{
+	background:#000000;
+}
+.right{
+	background:#E9E581;
+	color:#800000 ;
+}
+.display-4{
+	font-variant:small-caps;
+	font-weight:bold;
+}
+.jumbotron p{
+	font-family:candara;
+}
+.display-5{
+	font-family:poppins;
+	font-weight:bold;
+}
+
