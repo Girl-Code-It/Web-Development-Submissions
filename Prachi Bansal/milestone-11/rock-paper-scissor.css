@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&display=swap");
+body {
+  background: #24272e;
+}
+header {
+  font-family: asap;
+  background: white;
+  text-align: center;
+  font-size: x-small;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.score {
+  border: solid white 3px;
+  width: 200px;
+  margin: 20px auto;
+  color: white;
+  font-size: 45px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 20px;
+  font-family: asap;
+  position: relative;
+}
+
+.badge {
+  background: red;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: asap;
+}
+
+#leftuser {
+  position: absolute;
+  top: 40px;
+  left: -26px;
+}
+
+#rightcomp {
+  position: absolute;
+  top: 40px;
+  right: -26px;
+}
+
+.result {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: asap, sans-serif;
+  font-weight: bold;
+}
+
+.choices {
+  text-align: center;
+}
+
+.rps {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0px 10px auto;
+  border: white solid 3px;
+  width: 207px;
+  padding: 18px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#move {
+  text-align: center;
+  font-family: asap, sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
+
+.rps:hover {
+  background: rgb(240, 224, 2);
+  cursor: pointer;
+}
+
+.green {
+  border: green 6px dashed;
+}
+.red {
+  border: red 6px dashed;
+}
+.grey {
+  border: grey 6px dashed;
+}

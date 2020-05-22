@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>
+      temperautre
+    </title>
+  </head>
+  <body>
+    <h2>Temperature Conversion</h2>
+    <h3>click to enter temp in kelvins and convert to farenhite</h3>
+    <button onclick="temp()">click it</button>
+    <p id="demo"></p>
+    <script>
+      function temp() {
+        var k1 = prompt("enter the temp in kelvin", 373.15);
+        var temp;
+        temp = k1;
+        var f = ((temp - 273.15) * 9) / 5 + 32;
+        document.getElementById("demo").innerHTML =
+          k1 + "K" + " is " + f + "\xB0F\n" + "<br>";
+      }
+    </script>
+
+    <h3>click to enter temp in kelvins and convert to celcius</h3>
+    <button onclick="temp1()">click it</button>
+    <p id="de"></p>
+    <script>
+      function temp1() {
+        var k = prompt("enter the temp in kelvin", 373.15);
+        var temp;
+        temp = k;
+        var c = k - 273.15;
+        document.getElementById("de").innerHTML =
+          k + "K" + " is " + c + "\xB0C";
+      }
+    </script>
+
+    <h2>human years to dog years</h2>
+    <script src="year.js"></script>
+  </body>
+</html>

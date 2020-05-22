@@ -1,0 +1,101 @@
+
+header{ font-size:50;
+        text-align:center;
+        color:white;
+        padding:4px;
+
+}
+
+h2 {
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.active{ 
+      background:url("flywheel.jpg");
+      height:200px;
+    
+
+}
+div{ 
+     transition: 1s ease;
+     width:900px;
+     float:right;
+
+}
+table{ position:relative;
+       left:100px; 
+       top:20px;
+       border:2px solid;
+       border-radius:15px 15px 0 0;
+             
+}
+
+tr:first-child>th:first-child{ 
+        border-radius:15px 0 0 0;
+}
+tr:first-child>th:last-child{ 
+        border-radius: 0 15px 0 0;
+}
+
+
+td{  width:300px;
+     height:32px;
+     line-height:40px;
+     opacity:0.7;
+     border: solid 2px;
+     border-radius:6px;
+    
+}
+
+td:hover{ opacity:1;
+
+}
+
+tr{ 
+   background:#33ff66;
+
+}
+
+.what{  width:50px;
+        height:50px;  
+        border-radius:5px;
+        background:#339900;
+        border-bottom:3px solid;
+    
+}
+
+
+.new .current{  opacity:1;
+           background:red;
+}
+
+
+
+.new a { text-decoration:none;
+         display:block; 
+         color:black;
+         border-radius:15px;
+         background-color:#486b02;
+         line-height:45px;
+         height:45px;
+         background-color:#486b02;
+         padding-left:50px;
+         margin: 10px 0 10px 5px;
+}
+a:hover{   background:white;
+           color:blue;
+           opacity:1;
+
+}
+.new { box-sizing:border-box;
+      border:solid 3px;
+      background:#666633;
+      width:250px;
+      height:100vh;/*to occupy the whole screen when we want it for whole infinite screen*/
+      float:left;
+      display:block;
+     
+}
+
+

@@ -1,0 +1,89 @@
+
+header{ font-size:50;
+        text-align:center;
+        color:white;
+        padding:4px;
+
+}
+.active{ 
+      background:url("flywheel.jpg");
+      height:220px;
+    
+
+}
+div:first-letter{ font-family:algerian;
+
+}
+div{
+     display:block;
+     width:1000px;
+     float:right;
+    transition: background .5s linear, border-radius 1s ;
+ 
+
+
+}
+div:hover{  
+      color:#2d31b3;
+    width:1000px;
+      background:#ffbbaa;
+    border-radius: 50%;
+}
+p{ background: #b3b3b3;
+       width:275px;
+       height:550px;
+      padding:10px;
+      border: solid 3px;
+      position:relative; 
+      bottom:32px;
+      top:3px;
+      
+}
+
+/*.away{ border: solid 3px;
+       width:500px;
+       height:50px;
+       position:fixed;}*/
+                       /*this is like the adds that do not scroll with page there are more like static which is default position of browser, relative which takes                              values of top bottom left aor right and position itself realtive to earlier postion and in absolute it pisition itself such that other elements                            are not there on the page and it may lead to overlapping of twp elements*/ 
+
+
+img{  border: solid 5px black;
+      transition-property:height,width,transform;
+      transition-duration:1s,1s,1s;
+}
+
+img:hover{  transform:rotate(360deg);
+             height:250px;
+             width:300px;
+  }
+            
+a { text-decoration:none;
+    display:inline block; 
+    color:black;
+    border: none;
+    line-height:35px;
+    padding:10px;
+    height:35px;
+    width:100px;
+    margin:125px;
+    border-radius:40px;
+    background:#ffffff;
+    opacity:0.5;
+    transition: width,height;
+    transition-duration: 1s,1s;
+}
+.current{ opacity:1;
+          background:red;
+
+}
+
+
+a:hover{   background:white;
+           color:red;
+           height:50px;
+          width:150px;
+          opacity:1;
+}
+
+a:active{ background:white;
+}

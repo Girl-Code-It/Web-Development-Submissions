@@ -1,0 +1,119 @@
+html,
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #222;
+}
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.navbar-nav a {
+  padding: 0.8rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.my {
+  border: dashed 2px #b4b4b4;
+  width: 95%;
+}
+
+.fa-plane {
+  color: black;
+}
+
+.fa-car {
+  color: red;
+}
+
+.fa-train {
+  color: blue;
+}
+
+.fa-plane,
+.fa-car,
+.fa-train,
+.fa-google,
+.fa-instagram,
+.fa-youtube,
+.fa-twitter {
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+
+.my1 {
+  border: dashed 2px #b4b4b4;
+  width: 95%;
+}
+
+#content {
+  max-height: 170px;
+  overflow: hidden;
+  transition: max-height 0.7s;
+}
+
+#content.open {
+  max-height: 500px;
+  transition: max-height 0.7s;
+}
+
+.imgg {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-instagram {
+  color: rgb(224, 121, 211);
+}
+
+.fa-google {
+  color: green;
+}
+
+.light {
+  border: solid 1px #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding: 2rem;
+}
+
+.fa-google:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-twitter:hover {
+  color: #d5d5d5;
+}
+
+.fa-train:hover,
+.fa-car:hover,
+.fa-plane:hover {
+  color: #784677;
+}

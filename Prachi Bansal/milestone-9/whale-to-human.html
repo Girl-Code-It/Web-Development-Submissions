@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>milestone 9</title>
+    
+</head>
+<body>
+   
+<h1>human to whale language</h1>
+
+
+<p>Click on the button to enter the text</p>
+<button onClick="human()">TRY IT</button>  
+
+<p id="demo"></p>
+<script>
+    function human(){
+    var lang = prompt("enter in human language" , "enter your text here")
+    if (lang != null) {
+    document.getElementById("demo").innerHTML = lang.replace(/e/g,"ee").replace(/u/g,"uu"); 
+    }
+} 
+</script>
+</body>
+
+</html>
