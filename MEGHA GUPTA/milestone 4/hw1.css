@@ -1,0 +1,120 @@
+body{
+    margin: 2%;
+    padding: 2%;
+}
+header{
+background-image: url(flywheel.jpg);
+text-align: center;
+padding-bottom: 1%;
+}
+h1{
+    color: white;
+    font-size: 40px;
+   
+}
+nav{
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+nav a{
+    width: 22%;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    background: #c2c1c1;
+    
+}
+nav a:hover{
+    background: white;
+    color: black;
+}
+nav a:focus{
+   background: white;
+    color: black;
+}
+nav a:active{
+    border: 3px solid #000000;
+}
+.left{
+    float: left;
+    background: rgb(41, 7, 7);
+    width: 275px;
+    height: 550px;
+    padding: 10px;
+    border: solid 3px;
+    position: relative;
+    bottom: 32px;
+    top: 3px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-right: 60px;
+}  
+.right{
+      display: block;
+      width: 920px;
+      float: right;
+      font-size: 15px;
+      margin-right: 10px;
+}
+.right:hover{
+    background-color: rgb(112, 216, 143);
+    border-radius: 8%;
+	background: -moz-linear-gradient(top, rgb(112, 216, 143) 0%, #aadeec 100%);
+	background: -webkit-linear-gradient(rgb(112, 216, 143) 0%, #aadeec 100%);
+	background: -o-linear-gradient(rgb(112, 216, 143) 0%, #aadeec 100%);
+	background: linear-gradient(rgb(112, 216, 143) 0%, #aadeec 100%); 
+}
+table{
+    width: 40%;
+    height: 65%;
+    transition: width 2s ,height 2s,transform 2s;
+}
+table:hover{
+    width: 60%;
+    height: 70%;
+}
+table,th,td{
+    text-align: center;
+    border: 1px solid burlywood;
+    background-color: rgb(179, 211, 179);
+    border-radius: 6px;
+    
+}
+th{
+    color: white;
+    background: limegreen;
+	background: -moz-linear-gradient(top, limegreen 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(limegreen 0%, #00b7ea 100%);
+	background: -o-linear-gradient(limegreen 0%, #00b7ea 100%);
+	background: linear-gradient(limegreen 0%, #00b7ea 100%); 
+
+}
+td{
+    opacity: .8;
+}
+td:hover{
+    opacity: 1;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+  }
+img{
+    width: 265px;
+    border: 2px solid black;
+    display: block;
+    padding-bottom: 10px;
+    transition: width 2s,height 2s,transform 2s;
+}
+img:hover{
+    width:300px;
+    height: 300px;
+    transform: rotate(360deg);
+
+}
