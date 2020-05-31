@@ -1,0 +1,147 @@
+body{
+
+                font-size: 125%;
+                 padding:10px;
+                 margin:20px;
+
+}
+
+header{
+
+                background-image:  url("img3.jpg");
+                  color:#000000;
+                  padding:20px;
+}
+
+section{ display: inline-block;
+               float: left;
+               margin:10px;
+                padding: 2px;}
+
+h1{
+ color:#ffffff;
+ font-family: serif;
+ font-variant: small-caps;
+ text-align:center;
+ font-size: 200%;
+}
+
+
+nav{          display: inline-block;
+	font-variant: small-caps;
+	font-family: serif;
+                 display:inline-block;
+                 margin:20px;
+                 padding:10px;
+
+}
+
+h2{ display:inline-block;
+ color:#0000FF;
+ font-family: serif;
+ font-variant: small-caps;
+
+}
+
+img{
+width: 200px;
+height: 200px;
+border: 5px solid black;
+margin:20px;
+transition-property: background, border-radius,transform;
+ transition-duration: .2s, 1s,4s;
+ transition-timing-function: linear, ease-in;
+opacity:0.8;
+}
+
+img:hover{
+background: #ff7b29;
+ border-radius: 40%;
+opacity:1;
+transform:rotate(360deg);
+
+}
+.left{
+
+background:#0b6623;
+width:250px;
+height:750px;
+margin:5px;
+padding:5px;
+
+}
+
+.right{
+width:1100px;
+height:750px;
+margin:5px;
+padding:5px;
+
+}
+nav a{
+text-align:center;
+display:inline-block;
+width:100px;
+margin:50px;
+padding:10px;
+text-decoration:none;
+border: 2px solid black;
+font-family:arial;
+color:#000000;
+background:#d3d3d3;
+}
+
+ nav a:hover{
+ background:#ffffff;
+ color:#000000;
+ border: 2px solid black;}
+
+ nav a:active{
+ background:#ffffff;
+ color:#000000;
+ border: 2px solid black;}
+
+table.info{
+ color:#800000;
+border-spacing: 2;
+border: 2px solid black;
+border-radius: 20px 20px 4px 4px;
+background:#90EE90;
+padding:20px;
+margin:5px;
+}
+
+
+tr {
+    opacity: 0.5;
+ }
+
+tr:hover {
+    opacity: 1;
+ }
+
+tr:first-child{
+ background:#DAA520;
+ color:#FFFFFF;
+margin:25px;
+}
+
+td{
+text-align: centre;
+}
+
+td:first-child{
+  text-align: left;
+}
+
+
+.right {
+    background: #2db34a;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.right:hover {
+  background: #ff7b29;
+}

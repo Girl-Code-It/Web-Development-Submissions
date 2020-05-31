@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>JavaScript program </title>
+  </head>
+
+<body bgcolor=#AFDCEC>
+
+<h1 style="color:#000080;" >Book Details:-</h1>
+<script>
+var books =  {
+                 title: "Then there were none",
+                 author: "Agatha Christie",
+                 pages: 425,
+                 ratings:[],
+                 getAverageRating: function () {
+                     document.write((this.ratings[0]+this.ratings[1]+this.ratings[2])/3);
+                 },
+                addRating :function(r0,r1,r2){
+                       this.ratings[0]=r0;
+                       this.ratings[1]=r1;
+                       this.ratings[2]=r2;
+                     },
+
+             };
+
+             document.write("Book title : " + books.title + "<br>");
+             document.write("Book author : " + books.author + "<br>");
+             document.write("Number of pages : " + books.pages + "<br>");
+             document.write("Average rating : ");
+             books.addRating(2,5,4.2);
+             books.getAverageRating();
+
+
+</script>
+
+</body>
+  </html>
