@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>JavaScript program </title>
+  </head>
+
+<body bgcolor=#AFDCEC>
+
+<h1 style="color:#000080;" >Converting to Whale Language:-</h1>
+
+
+<script >
+function whale(str)
+{  var strnew=str;
+
+  for(var i=0;i< str.length;i++)
+  {
+	   if(str[i]==='e')
+	     strnew = str.slice(0, i) +"e" + str.slice(i,str.length);
+
+ }
+
+document.write(" "+ strnew);
+
+ }
+
+whale("hey");
+whale("this is me")
+</script>
+
+</body>
+  </html>

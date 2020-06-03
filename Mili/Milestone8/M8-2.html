@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>JavaScript program </title>
+  </head>
+  
+<body bgcolor=#AFDCEC>
+
+<h1 style="color:#000080;" >Runner's details:-</h1>
+
+<script >
+function run(age,regtime)
+{  var num=age;
+   var time="12:30 pm ";
+   if(num>18) 
+  {   
+     	if(regtime==="early")
+     	{    num= 1000+age;
+         	     time="9:30 am";
+                  }
+     	else
+     	{   
+          	    time="11:00 am"; 
+    	}
+
+ } 
+document.write("Age: "+ age+" , ");
+document.write("Registered: "+ regtime+" ,");
+document.write("Race number: "+ num+" , ");
+document.write("Starting time:" + time);
+ 
+ }
+
+run(45,"late");
+</script>
+
+
+</body>
+  </html>
+  
