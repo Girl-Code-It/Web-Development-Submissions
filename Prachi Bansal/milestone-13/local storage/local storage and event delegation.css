@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  background: url("oh-la-la.jpeg") center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+.wrap {
+  padding: 20px;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  padding: 4px;
+}
+.add-items {
+  margin-top: 20px;
+}
+svg {
+  fill: white;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+}
+.plates {
+  text-align: left;
+  list-style: none;
+}
+.plates li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  font-weight: 100;
+  display: flex;
+}
+.add-items input {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.plates input + label:before {
+  content: "\02B1C";
+  margin-right: 10px;
+}
+
+.plates input:checked + label:before {
+  content: "\01f32e";
+}
+
+.plates input {
+  display: none;
+}

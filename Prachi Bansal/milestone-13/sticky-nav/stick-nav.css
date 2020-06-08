@@ -1,0 +1,53 @@
+.jumbotron {
+  background: url("story2.jpg") no-repeat;
+}
+h1 {
+  padding: 4px;
+  color: white;
+}
+
+.once {
+  width: 800px;
+  background: grey;
+  margin-left: 280px;
+  border: 3px solid;
+  padding: 8px;
+  transform: scale(0.98);
+  transition: transform 0.5s;
+}
+
+.fixed-nav .once {
+  transform: scale(1);
+}
+
+nav {
+  width: 100%;
+  top: 0;
+  background: black;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.logo {
+  max-width: 0;
+  overflow: hidden;
+  background: white;
+  transition: all 0.2s;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+}
+
+.fixed-nav .logo {
+  max-width: 350px;
+}
