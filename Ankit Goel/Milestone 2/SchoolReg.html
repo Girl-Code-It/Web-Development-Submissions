@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Registration</title>
+</head>
+
+<body>
+    <h1>School Registration Details</h1>
+    <form>
+        <label>
+            Child's Name:
+            <input type="text" placeholder="Enter Child's Name" size="50" required/>
+        </label>
+        <br /> <br />
+        <label>
+            Father's Name:
+            <input type="text" placeholder="Enter Father's Name" size="50" />
+        </label>
+        <br /> <br />
+        <label>
+            Mother's Name:
+            <input type="text" placeholder="Enter Mother's Name" size="50" />
+        </label>
+        <br /> <br />
+        <label>
+            Child's Age (b/w 5 and 12):
+            <input type="number" placeholder="Age" min="5" max="12" />
+        </label>
+        <br /> <br />
+        <label>
+            Child's DOB (min: 01-03-2001):
+            <input type="date" min="2001-03-01" />
+        </label>
+        <br /> <br />
+        <label>
+            Email Id:
+            <input type="email" placeholder="Enter Email Id" size="50" />
+        </label>
+        <br /> <br />
+        <label>
+            Gender:
+            <input list="gender" placeholder="Select Gender" />
+            <datalist id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </datalist>
+        </label>
+        <br /> <br />
+        <label>
+            State:
+            <select name="" id="">
+                <option value="Delhi">Delhi</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Others">Others</option>
+                <option value="" selected>Select a state</option>
+            </select>
+        </label>
+        <br /> <br />
+        <input type="submit" />
+    </form>
+
+</body>
+
+</html>
