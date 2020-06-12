@@ -1,0 +1,513 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flipkart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="flip.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+-->
+  <!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Flip</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="flip.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+    
+        <nav class="navbar" id="main">
+            
+            <ul>
+                <li class="first">
+                   
+                    <!--<a href="#"><i><b>Flipkart</b><br>Explore Plus</i></a>-->
+                    <div class="start">
+                    <h2 style="color: white; text-align: left; margin-bottom: 0; padding-bottom: 0;"><i><b>Flipkart</b></i></h2>
+                    <a href="#" style="font-size: 7px; text-align: left; color: yellow; margin-top: 0; "><i>Explore Plus</i></a>
+                    </div>
+                    <!--<h6 style="font-size: 24px; color: white; margin-right: 5px;"><b><i>Flipkart</i></b></h6>-->
+                    <form class="search header-form-search" action="/search" method="GET">
+                    <input type="text" value="" class="LM6RPg" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+                    
+                    </form>
+                    <button type="submit" class="submit"><i class="fa fa-search"></i></button>        
+            </li>
+            <li class="active"><a href="#"><b>Login</b></a></li>
+                    <li><a href="#">More</a>
+                        <i class="arrow1 down"></i></li>
+                    <li>  <a href="#" style="margin-left: 0em;">Cart</a>
+                        <i class="fa fa-shopping-cart" style="color: white; font-size: 25px; margin-left: 2px;"></i>
+                        </li>
+
+            </ul>
+        
+        </nav>
+        <!--Second navbar-->
+        <div class="nav2">
+            <a href="#"><b>Electronics</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>TVs & Appliances</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>Men</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>Women</b></a>
+                <i class="arrow down"></i>
+            <a href="#"><b>Babies & Kids</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>Home & Furniture</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>Sports,Books & More</b></a>
+            <i class="arrow down"></i>
+            <a href="#"><b>Offer Zone</b></a>
+            <i class="arrow down"></i>
+        </div>
+      <!--Image slider-->
+        <div class="container-fluid">
+         
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="flipkart2.jpeg" alt="Los Angeles" style="width:100%; height: 700px;">
+                </div>
+          
+                <div class="carousel-item">
+                  <img src="erik-mclean-nfoRa6NHTbU-unsplash.jpg" alt="Chicago" style="width:100%; height: 700px;">
+                </div>
+              
+                <div class="carousel-item">
+                  <img src="freestocks-_3Q3tsJ01nc-unsplash.jpg" alt="New york" style="width:100%; height: 700px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="alfred-2xR_6LHrqX4-unsplash.jpg" alt="London" style="width:100%; height: 700px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="parker-burchfield-tvG4WvjgsEY-unsplash.jpg" alt="London" style="width:100%; height: 700px;">
+                </div>
+              
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          
+          
+            <!--Deal of the day-->
+            <!--
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                    <div class="col-2">
+                   <h2 style="margin: 20px 25px;"><b>Deals of the Day</b></h2>
+                  
+                    </div>
+                    <div class="col-2">
+                        <img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/timer_931251.svg">
+                    
+                  </div>
+                </div>
+                    <div class="col-2">
+                        <a href="#"><button type="button" class="btn btn-primary btn-lg">VIEW ALL</button></a>
+                    </div>
+                  </div>
+         </div>
+            -->
+            <!--Three columns-->
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/timer_931251.svg" style="height: 24px; width: 24px; margin: 0 10px -50px 210px;">
+                    
+                   <h2 style="margin: 1px 25px; padding-bottom: 20px;"><b>Deals of the Day</b></h2>
+                    </div>
+                    <div class="col-4">
+                        <a style="margin: 0 10px -80px 300px;" href="#"><button type="button" class="btn btn-primary btn-lg mt-3" >VIEW ALL</button></a>
+                    </div>
+                  </div>
+         </div>
+            <div class="card container-fluid " style="height: 320px;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="mobile1.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="mobile2.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="mobile3.jpg">
+                    </div>
+                </div>
+            </div>
+       
+            <!--Mobiles-->
+            <div class="container-fluid m-4">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                   <h2 style="margin: 1px 25px; padding-bottom: 20px;"><b>Selfie Camera Phones</b></h2>
+                    </div>
+                    <div class="col-4">
+                        <a style="margin: 0 10px -80px 300px;" href="#"><button type="button" class="btn btn-primary btn-lg" style="margin-bottom: 0px;">VIEW ALL</button></a>
+                    </div>
+                  </div>
+         </div>
+         <!--card-->
+    <div class="items row" style="margin: 5px; ">
+        <div class="col-md-2 col-lg-2">
+          <div class="card">
+              <img src="apple.jpg" class="card-img-top img-fluid" />
+            <div class="card-block">
+                <h3 class="card-title text-center">iphone-8</h3>
+                <p class="h5 text-center text-success">Upto 20% off</p>
+                <p class="h6 text-center">Limited Period Deal</p>
+            </div>
+           </div>
+          </div>
+            <div class="col-md-2 col-lg-2">
+              <div class="card">
+                  <img src="samsung.jpg" class="card-img-top img-fluid" />
+                <div class="card-block">
+                    <h3 class="card-title text-center">Samsung A-50</h3>
+                    <p class="h5 text-center text-success">Upto 40% off</p>
+                    <p class="h6 text-center">Limited Period Deal</p>
+                </div>
+               </div>
+              </div>
+ 
+                <div class="col-md-2 col-lg-2">
+                  <div class="card">
+                      <img src="oppo.jpg" class="card-img-top img-fluid" />
+                    <div class="card-block">
+                      <h3 class="card-title text-center">Oppo</h3>
+                  <p class="h5 text-center text-success">Explore More</p>
+                  <p class="h6 text-center">Limited Period Deal</p>
+                    </div>
+                   </div>
+                  </div>
+
+                    <div class="col-md-2 col-lg-2">
+                      <div class="card">
+                          <img src="vivo.jpg" class="card-img-top img-fluid" />
+                        <div class="card-block">
+                            <h3 class="card-title text-center">Vivo</h3>
+                            <p class="h5 text-center text-success">Upto 10% off</p>
+                            <p class="h6 text-center">Limited Period Deal</p>
+                        </div>
+                       </div>
+                      </div>
+            
+                        <div class="col-md-2 col-lg-2">
+                          <div class="card">
+                              <img src="redmi.jpg" class="card-img-top img-fluid" />
+                            <div class="card-block">
+                                <h3 class="card-title text-center">Redmi Note 7</h3>
+                                <p class="h5 text-center text-success">Upto 30% off</p>
+                                <p class="h6 text-center">Limited Period Deal</p>
+                            </div>
+                           </div>
+                          </div>
+        
+                            <div class="col-md-2 col-lg-2">
+                              <div class="card">
+                                  <img src="redmi2.jpg" class="card-img-top img-fluid" />
+                                <div class="card-block">
+                                    <h3 class="card-title text-center">Redmi Note 4</h3>
+                                    <p class="h5 text-center text-success">Upto 60% off</p>
+                                    <p class="h6 text-center">Limited Period Deal</p>
+                                </div>
+                               </div>
+                              </div>
+ <!--Footwears-->
+ <div class="container-fluid m-4">
+    <div class="row justify-content-between">
+        <div class="col-4">
+       <h2 style="margin: 1px 25px; padding-bottom: 20px;"><b>Footwears</b></h2>
+        </div>
+        <div class="col-4">
+            <a style="margin: 0 700px -80px 330px;" href="#"><button type="button" class="btn btn-primary btn-lg" style="margin-bottom: 0px;">VIEW ALL</button></a>
+        </div>
+      </div>
+</div>
+<!--card-->
+<div class="items row" style="margin: 5px;">
+<div class="col-md-2 col-lg-2">
+<div class="card">
+  <img src="1.jpg" class="card-img-top img-fluid" />
+<div class="card-block">
+  <h3 class="card-title text-center">Nike & ADIDAS</h3>
+  <p class="h5 text-center text-success">Explore More</p>
+  <p class="h6 text-center">Sandals</p>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-lg-2">
+  <div class="card">
+      <img src="2.jpeg" class="card-img-top img-fluid " />
+    <div class="card-block">
+      <h3 class="card-title text-center">Bata, Sparx & More</h3>
+      <p class="h5 text-center text-success">Upto 60% off</p>
+      <p class="h6 text-center">Sports Shoes</p>
+    </div>
+   </div>
+  </div>
+
+    <div class="col-md-2 col-lg-2">
+      <div class="card">
+          <img src="3.jpeg" class="card-img-top img-fluid" />
+        <div class="card-block">
+          <h3 class="card-title text-center">Reebok & Puma</h3>
+          <p class="h5 text-center text-success">Upto 20% off</p>
+          <p class="h6 text-center">Slippers</p>
+        </div>
+       </div>
+      </div>
+
+        <div class="col-md-2 col-lg-2">
+          <div class="card">
+              <img src="4.png" class="card-img-top img-fluid" />
+            <div class="card-block">
+              <h3 class="card-title text-center">Sparx & Oricum</h3>
+              <p class="h5 text-center text-success">Upto Rs 200 off</p>
+              <p class="h6 text-center">Sandals & Slippers</p>
+            </div>
+           </div>
+          </div>
+
+            <div class="col-md-2 col-lg-2">
+              <div class="card">
+                  <img src="5.jpg" class="card-img-top img-fluid" />
+                <div class="card-block">
+                  <h3 class="card-title text-center">ADIDAS & Asics</h3>
+                  <p class="h5 text-center text-success">Explore More</p>
+                  <p class="h6 text-center">Slippers</p>
+                </div>
+               </div>
+              </div>
+
+                <div class="col-md-2 col-lg-2">
+                  <div class="card">
+                      <img src="6.jpeg" class="card-img-top img-fluid" />
+                    <div class="card-block">
+                      <h3 class="card-title text-center">Sparx & Essence</h3>
+                      <p class="h5 text-center text-success">Upto Rs 500</p>
+                      <p class="h6 text-center">Fancy Shoes</p>
+                    </div>
+                   </div>
+                  </div>
+
+           
+            <!--Three columns-->
+        </div>
+        <div class="card container-fluid" style="height: 320px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img1.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img src="img2.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img src="img3.jpg">
+                </div>
+            </div>
+        </div>
+        <!--content-->
+
+        <div class="site-wrap">
+            <h5>Flipkart: The One-stop Shopping Destination</h5>
+            <p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down. 
+            <p>What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question. </p>
+            <h5>Flipkart Plus</h5>
+            <p>A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more! </p>
+            <p>What's more, you can even use the Flipkart supercoins for a number of exciting services, like:<br>
+                An annual Zomato Gold membership<br>
+                An annual Hotstar Premium membership<br>
+                6 months Gaana plus subscription<br>
+                Rupees 550 instant discount on flights on ixigo<br>
+                Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.</p>
+            <h5>No Cost EMI</h5>
+            <p>In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.            </p>
+            <h5>EMI on Debit Cards</h5>
+            <p>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply. 
+            </p>
+            <h5>Mobile Exchange Offers</h5>
+            <p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply. 
+            </p>
+            <h5>What Can You Buy From Flipkart?</h5>
+            <h5>Mobile Phones</h5>
+            <p>From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services. 
+            </p>
+            <h5>Electronic Devices and Accessories</h5>
+            <p> When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.
+            </p>
+            <p>Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. 
+            </p>
+            <p>Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+            </p>
+            <p>How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.
+            </p>
+            <h5>Large Appliances</h5>
+            <p>Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others. </p>
+            <h5>Small Home Appliances</h5>
+            <p>Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.</p>
+            <h5>Lifestyle</h5>
+            <p>Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.
+            </p>
+            <h5>Home and Furniture</h5>
+            <p>Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes. 
+            </p>
+            <p>You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart. 
+            </p>
+            <h5>Baby and Kids</h5>
+            <p>Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.
+            </p>
+            <h5>Books, Sports and Games</h5>
+            <p>Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving. 
+            </p>
+            <h5>Grocery/Supermart</h5>
+            <p>Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.</p>
+            </div>
+
+        <!--Footer-->
+          <footer>
+            <div class="container-fluid padding">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                        <h6 style="color: #878787;">About</h6>
+                        
+                        <p>Contact Us</p>
+                        <p>About Us</p>
+                        <p>Careers</p>
+                        <p>Flipkart Stories</p>
+                        <p>Press</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 style="color: #878787;">HELP</h6>
+                        
+                        <p>Payment</p>
+                        <p>Shipping</p>
+                        <p>Cancellation</p>
+                        <p>Return</p>
+                        <p>FAQ</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 style="color: #878787;">POLICY</h6>
+                        
+                        <p>Return Policy</p>
+                        <p>Terms of Use</p>
+                        <p>Security</p>
+                        <p>Privacy</p>
+                        <p>Site Map</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 style="color: #878787;">SOCIAL</h6>
+                        
+                        <p>Facebook</p>
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="col-md-2">
+                        <h6 style="color: #878787;">Mail Us:</h6>
+                        
+                        <p>Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia &<br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India</p>
+                    </div>
+                    <div class="col-md-1.99">
+                        <h6 style="color: #878787;">Registered Office Address:</h6>
+                        <p>Return Policy</p>
+                        <p>Terms of Use</p>
+                        <p>Security</p>
+                        <p>Privacy</p>
+                        <p>Site Map</p>
+                    </div>
+                    <hr class="light">
+                    
+                    <div class="col-md-2" style="color: white;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K">
+                        <b>Sell On Flipkart</b>
+                    </div>
+                        
+                    <div class="col-md-2" style="color: white;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
+                        <b>Advertise</b> </div>
+                    <div class="col-md-2" style="color: white;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+                        <b>Gift Cars</b> </div>
+                    <div class="col-md-2" style="color: white;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
+                        <b>Help Center</b> </div>
+                    
+                    <div class="col-md-4" style="color: white;">
+                        <img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_b3ab24.svg"> </div>
+                    </div>
+           
+            </div>
+          </footer>
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+-->
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   
+    <script src="flipkart.js"></script>
+    -->
+
+   <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  -->
+
+   <!--
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ -->
+    <script src="flipkart.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    </body>
+</html>

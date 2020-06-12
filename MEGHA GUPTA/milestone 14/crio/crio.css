@@ -1,0 +1,251 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    color: #222;
+    background-image: repeating-linear-gradient( rgba(231,243,254, 0.1)
+       ,
+        rgba(255,255,255,1));
+    
+  }
+
+.navbar{
+    padding: .8rem;
+    background: white;
+}
+
+.navbar-nav li{
+    padding-right: 10px;
+}
+
+.nav-link{
+    font-size: 1em !important;
+}
+
+  .carousel-item img{
+    width: 100%;
+    border: 0px solid;
+ 
+    padding-bottom: 10px;
+}
+
+.carousel-caption{
+    padding-bottom: 20rem;
+    padding-left: 10px;
+   
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }
+
+.carousel-caption p {
+    
+
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+
+  .padding{
+      padding-bottom: 2rem;
+  }
+
+  .welcome {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+  }
+
+  .welcome h1{
+    color: #08343e;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .welcome hr{
+      width: 160px;
+      height: 10px;
+    background-color: rgb(0, 150, 139);
+  }
+
+  .wow{
+      margin-right: 6rem;
+      
+  }
+
+  .wow p{
+      max-width: 100%;
+      font-size: 19px;
+      text-align: center;
+      margin-top: 1rem;
+      margin-right: 6rem;
+      opacity: 0.6;
+  
+  }
+  
+  .two{
+    background: #e1dcd0;
+    width: 410px;
+  }
+
+  .skill-tag{
+    font-size: 15px;
+    background: #bbb7ac;
+    color: #05343A;
+    font-family: Source Sans Pro;
+    line-height: 35px;
+    border-radius: 4px;
+    opacity: 0.75;
+    display: inline-flex;
+    margin-top: 8px;
+    padding: 5px 10px;
+    margin: 5px 5px 0px 0px;
+    align-items: center;
+    
+  }
+
+  .two h3{
+    color: #05343a;
+    font-weight: 900;
+  }
+
+  .two a{
+    color: white;
+    background: #08343e;
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 30px;
+  }
+
+  .one{
+    border-radius: 40px;
+    height: 400px;
+    background: rgb(216, 248, 255);
+    padding: 30px;
+    color: #447872;
+    
+  }
+
+  .one ul{
+    margin-bottom: 40px;
+  }
+
+  .one a{
+    background: #447872;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    font-weight: 400;
+  }
+
+  .three{
+    color: #05343a;
+    text-align: center;
+    border-radius: 20px;
+    border: 0px;
+  }
+
+  .three p{
+    opacity: 0.8;
+  }
+
+  .three a{
+    background: #447872;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+
+  .three hr{
+    width: 100%;
+    height: .001px;
+    opacity: .3;
+  background-color: rgb(0, 150, 139);
+  }
+
+  #companies{
+
+   text-align: center;
+  }
+
+  #companies ul{
+    margin-top: 0px;
+    margin: 10px auto 0px auto;
+    text-align: center;
+    max-width: 940px;
+    font-size: 20px;
+   }
+
+   #companies img{
+    height: 45px;
+   }
+
+   #companies ul li{
+     list-style: none;
+     display: inline-block;
+ 
+     margin-bottom: 20px;
+     padding-right: 80px;
+     padding-bottom: 20px;
+     vertical-align: baseline;
+   }
+
+   .boy{
+     background: 0px 0px url("../resources/assets/Testimonial.png") no-repeat;
+   }
+   
+   .final{
+     width: 100%;
+   }
+
+   footer{
+     background-color: #041819;
+     color: #dfdcd0;
+     padding-top: 2rem;
+     position: relative;
+     font-weight: 300;
+     font-size: 15px;
+     padding: 0 50px 50px 5px;
+  
+   }
+
+   .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    text-align: left;
+    text-decoration: none;
+   
+    margin-bottom: 10px;
+  }
+
+  .fa-linkedin {
+    background: #041819;
+    color: #dfdcd0;
+  }
+
+  .fa-facebook {
+    background: #041819;
+    color: #dfdcd0;
+  }
+  
+  .fa-twitter {
+    background: #041819;
+    color: #dfdcd0;
+  }
+
+  .fa-instagram {
+    background: #041819;
+    color: #dfdcd0;
+  }
+  
+  
