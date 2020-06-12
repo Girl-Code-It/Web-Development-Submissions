@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Whack A Mole!</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="stle.css" />
+  </head>
+  <body>
+    <h1>Whack-a-mole! <span class="score">0</span></h1>
+    <button onClick="start()">Start!</button>
+
+    <div class="game">
+      <div class="hole hole1">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole2">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole3">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole4">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole5">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole6">
+        <div class="mole"></div>
+      </div>
+    </div>
+
+    <script>
+      const holes = document.querySelectorAll(".hole");
+      const scoreBoard = document.querySelector(".score");
+      const moles = document.querySelectorAll(".mole");
+      let lastHole;
+      let timeup = false;
+      let sc = 0;
+
+      function randomTime(min, max) {
+        return Math.round(Math.random() * (max - min) + min);
+      }
+
+      function randomHole(holes) {
+        const holee = document.querySelectorAll(".hole");
+        const indx = Math.floor(Math.random() * holee.length);
+        const holeNo = holee[indx];
+        if (holeNo == lastHole) {
+          console.log("same again");
+          return randomHole(holes);
+        }
+        lastHole = holeNo;
+        return holeNo;
+        console.log(holeNo);
+      }
+
+      function peep() {
+        const time = randomTime(200, 1000);
+        const hole = randomHole(holes);
+        hole.classList.add("up");
+        setTimeout(() => {
+          hole.classList.remove("up");
+          if (!timeup) peep();
+        }, time);
+      }
+
+      function start() {
+        scoreBoard.textContent = 0;
+        timeup = false;
+        sc = 0;
+        peep();
+        setTimeout(() => {
+          timeup = true;
+        }, 10000);
+      }
+      function scoress(e) {
+        if (!e.isTrusted) return;
+        sc++;
+        this.classList.remove("up");
+        scoreBoard.textContent = sc;
+      }
+      moles.forEach((mole) => mole.addEventListener("click", scoress));
+    </script>
+  </body>
+</html>
