@@ -1,0 +1,179 @@
+.navs {
+  background-color: #f57f17;
+}
+.navbar {
+  background-color: #ffeb3b;
+}
+.fa-search {
+  color: #000000;
+  margin-left: 5px;
+  height: 25px;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  height: 100%;
+  /*width: 100%;*/
+}
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  /*background-color: red;*/
+}
+.child {
+  height: 100%;
+}
+.drop {
+  background-color: rgba(238, 255, 65, 0.3);
+}
+.drop a:hover {
+  background-color: rgba(238, 255, 65, 0.5);
+  font-weight: bold;
+}
+.camp {
+  background-color: #ffa726;
+}
+hr {
+  width: 10%;
+
+  background-color: #607d8b; /* #fff176;*/
+}
+.fixedbg {
+  background-image: url("images/poor.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fixedbg p {
+  font-weight: bold;
+  font-style: oblique;
+}
+.fixedbg h3 {
+  font-weight: bold;
+}
+.stories {
+  background-color: #ffa726;
+}
+.card-img-overlay {
+  left: 75%;
+}
+.fa-angle-double-right {
+  font-size: 4rem;
+  transition: font-size 2s;
+}
+.fa-angle-double-right:hover {
+  font-size: 5rem;
+}
+.footer {
+  background-color: #ffeb3b;
+}
+.cap1 {
+  top: 10%;
+  right: 3%;
+}
+.cap1 p {
+  font-size: 200%;
+  color: #000000;
+  font-weight: bold;
+}
+.cap2 {
+  top: 12%;
+  left: 5%;
+}
+.cap2 h4 {
+  font-weight: bold;
+  font-size: 250%;
+}
+.cap2 p {
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+}
+.cap3 {
+  top: 30%;
+  left: 10%;
+}
+.cap3 h4 {
+  font-size: 300%;
+}
+@media (max-width: 992px) {
+  .cap1 {
+    top: 5%;
+    right: 1%;
+  }
+  .cap1 p {
+    font-size: 150%;
+  }
+  .cap2 {
+    top: 5%;
+    left: 5%;
+  }
+  .cap2 h4 {
+    font-size: 210%;
+  }
+  .cap3 {
+    left: 5%;
+  }
+  .cap3 h4 {
+    font-size: 200%;
+  }
+  .fa-angle-double-right {
+    font-size: 3rem;
+    transition: font-size 2s;
+  }
+  .fa-angle-double-right:hover {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .fa-angle-double-right {
+    font-size: 2rem;
+    transition: font-size 2s;
+  }
+  .fa-angle-double-right:hover {
+    font-size: 3rem;
+  }
+  .cap1 {
+    top: 1%;
+    right: 1%;
+  }
+  .cap2 {
+    top: 3%;
+  }
+  .cap2 h4 {
+    font-weight: bold;
+    font-size: 200%;
+  }
+  .cap2 p {
+    font-size: 150%;
+    font-family: "Times New Roman", Times, serif;
+    color: #000000;
+  }
+  .cap3 {
+    left: 1%;
+  }
+  .cap3 h4 {
+    font-size: 140%;
+  }
+}
+@media (max-width: 576px) {
+  .pad {
+    padding-top: 10px;
+    margin-left: 55%;
+  }
+  .cap3 h4 {
+    font-size: 72%;
+    text-align: left;
+  }
+  .fa-angle-double-right {
+    font-size: 1rem;
+    transition: font-size 2s;
+  }
+  .fa-angle-double-right:hover {
+    font-size: 2rem;
+  }
+  .foot {
+    padding-left: 30px;
+  }
+}
