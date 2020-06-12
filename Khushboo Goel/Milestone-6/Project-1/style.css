@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Marck+Script&family=Montaga&family=Playfair+Display&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap");
+.icon {
+  transition: width height 2s;
+}
+.icon:hover {
+  width: 100px;
+  height: 100px;
+}
+body {
+  background: url("images/cafe1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+}
+.left {
+  margin: 0 auto;
+  width: 70%;
+}
+.store {
+  background-image: linear-gradient(rgba(136, 20, 20, 0.7), rgba(255, 0, 0, 0.5), rgba(169, 4, 4, 1)) !important;
+}
+h1 {
+  font-family: "Caladea";
+  color: #00ffe4;
+}
+h2 {
+  font-family: "Playfair Display";
+}
+h4 {
+  font-family: "Roboto";
+}
+h5 {
+  font-family: "Merriweather";
+}
+h6 {
+  font-weight: bold;
+}
+.salad {
+  width: inherit;
+  height: inherit;
+}
+.carousel-caption {
+  top: 40%;
+  transform: translateY(-40%);
+  transform: translateX(-20%);
+}
+.card {
+  width: 17rem;
+}
+.card-text a {
+  color: #000000;
+  font-weight: bold;
+}
+/*.card-text {
+  font-size: 1.5em;
+}*/
+hr {
+  background-color: #ccc;
+}
+.self {
+  background-image: linear-gradient(to right, indigo, red, orange, yellow);
+}
+.potter {
+  color: #840840;
+}
+.loc {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.social {
+  font-size: 3.5rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+@media (max-width: 576px) {
+  .left {
+    width: 100%;
+  }
+  .card {
+    width: 15rem;
+  }
+  .carousel-caption {
+    top: 30%;
+    transform: translateY(-30%);
+    transform: translateX(-25%);
+  }
+  .carousel-caption h2 {
+    font-size: 150%;
+  }
+}
+@media (max-width: 768px) {
+  .left {
+    width: 90%;
+  }
+  .card {
+    width: 15rem;
+  }
+
+  .carousel-caption h2 {
+    font-size: 200%;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-caption h2 {
+    font-size: 280%;
+  }
+  .carousel-caption {
+    transform: translateX(-25%);
+  }
+}
