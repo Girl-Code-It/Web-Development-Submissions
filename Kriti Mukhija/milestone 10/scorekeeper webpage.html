@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Score Keeper</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="content">
+
+    <h1><strong>My Score Keeper</strong></h1>
+    <h3><big>Score:<span id="score1">0 </span> to <span id="score2"> 0</span></big></h3>
+    <div class="form-group">
+      <button type="button" class="btn btn-secondary" id="ctr1">Player 1 </button>
+      <button type="button" class="btn btn-secondary" id="ctr2">Player 2</button>
+      <button class="btn btn-danger" id="reset">Reset</button>
+    </div>
+    <div class="form-group">
+      <input type="numbers" name="limit" value="5" class="form-control" id="limit" />
+    </div>
+    <h3> The winner is:<span id="winner"> </span></h3>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

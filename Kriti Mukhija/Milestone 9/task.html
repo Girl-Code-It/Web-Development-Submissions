@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 style="background-color:#f6d198 ; padding:10px; ">Library books</h1>
+
+
+    <script >
+    var books={
+      author:'JK Rowling',
+    title:"Harry potter",
+     pages:250,
+     isCheckedout:false ,
+      ratings:[],
+    getavgrating: function(){
+      var sum=0;
+      for(var i=0; i< books.ratings.length;i++)
+      { sum+= books.ratings[i];
+      }
+      var avg= sum/books.ratings.length;
+               return "Average:"+ avg;
+      },
+    toggleCheckOutStatus: function(){
+      if(isCheckedout==false)
+        this.isCheckedout;
+       else
+        isCheckedout=true;
+    },
+
+    addRating: function(rate){
+      books.ratings.push(rate);
+    }
+
+    };
+    document.write("Book Title:"+books.title+'<br>');
+    document.write("Pages:"+books.pages+'<br>');
+    document.write("Book Title:"+books.author+'<br>');
+    books.addRating(5);
+    books.addRating(3);
+    books.addRating(4);
+    books.addRating(5);
+
+    document.write(books.getavgrating()+'<br>');
+
+    </script>
+    <br />
+
+
+
+
+    <h1 style="background-color:#f6d198 ; padding:10px; ">Human language to whale language </h1>
+    <p id="demo"></p>
+      <script>
+      var hm="do you need something";
+      var wl="";
+      for(var i=0; i<hm.length ; i++){
+        if(hm[i]==="u"|| hm[i]==="e")
+        wl+= hm[i].repeat(2);
+        else
+        wl+=hm[i];
+
+      }
+      document.getElementById("demo").innerHTML=wl;
+
+
+
+    </script>
+
+  </body>
+</html>

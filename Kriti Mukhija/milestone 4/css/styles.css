@@ -1,0 +1,171 @@
+
+body{
+font-family: "Montserrat";
+}
+
+  #title {
+  background-color: #ff4c68;
+  color:#fff;
+
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-decoration: bold;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+  size:1.5rem;
+}
+
+p{
+color:#8f8f8f;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+/*Navigation bar*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand
+{ font-family: "Ubuntu";
+   font-weight:bold;
+   font-size: 2.5rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  color: white;
+}
+
+/*title-image*/
+
+.title-image{
+  transform:rotate(25deg);
+  width:60%;
+  position: absolute;
+
+
+}
+
+/*features section*/
+
+.feature-box{
+  text-align: center;
+}
+
+#features{
+  padding: 7% 15%;
+position: relative;
+  z-index: 1;
+
+  background-color: #fff;
+
+
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+
+}
+
+.testimonial-img
+{
+  margin:20px;
+  width:15%;
+  border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+width: 15%;
+padding: 20px 20px 50px;
+
+}
+
+/*pricing section*/
+
+
+#pricing{
+   padding:100px;
+   text-align:center;
+  text-decoration: bold;
+}
+.pricing-column{
+  padding: 2% 3%;
+}
+
+@media (max-width:1028px)
+{
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*call to action  section*/
+
+#cta{
+  background-color: #ff4c68;
+  padding: 100px;
+    text-align:center;
+}
+
+.text{
+
+  color:#fff;
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height:1.5;
+
+}
+
+/*footer section*/
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+    padding:50px;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
