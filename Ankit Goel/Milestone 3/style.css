@@ -1,0 +1,39 @@
+header h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.about p {
+    width: 60%;
+    font-size: 1.2em;
+}
+
+.about img {
+    position: absolute;
+    left: 70%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+
+.skills span {
+    font-size: 18px;
+}
+
+.skills progress {
+    height: 20px;
+    width: 200px;
+}
