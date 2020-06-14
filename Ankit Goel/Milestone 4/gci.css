@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(108, 181, 240);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+
+.heading {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 20px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about {
+    font-size: 1.5em;
+    padding-top: 12vh;
+
+}
+
+.abt-det {
+    display: flex;
+}
+
+.abt-det p {
+    width: 60%;
+    margin: 0;
+}
+
+.abt-det img {
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.motto {
+    margin: 0 auto;
+    width: 25%;
+    padding: 30px 5%;
+    box-shadow: 6px 6px 30px #00000029;
+    border-radius: 30px;
+    background: linear-gradient(rgb(199, 228, 248),rgb(96, 96, 196));
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.motto h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.courses {
+    font-size: 1.7em;
+    padding-top: 12vh;
+}
+
+.courses ul {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.contact {
+    font-size: 1.5em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    padding-left: 4%;
+    border: 1px solid black;
+}
+button {
+    margin-left: 20%;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
