@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <style>
+        body {
+            margin: 5px;
+            background-color: darkgray;
+            background-image: url(https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426329_1280.jpg);
+        }
+
+        header {
+            background-color: #f8f2f2;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            font-family: Monospace;
+        }
+
+        #logo {
+            /* padding-top: 13px; */
+            padding-left: 8px;
+            height: 100%;
+            width: 7%
+        }
+
+        #about {
+            margin-top: 30px;
+            width: 100%;
+            height: 250px;
+            background-color: rgb(213, 213, 213, 0.75);
+            /* padding: 0.5px; */
+
+        }
+
+        #about-us {
+            font-family: Allura;
+            font-weight: bolder;
+            font-size: 40px;
+            text-shadow: 1px 2px 0px white;
+            padding:10px 0 0 10px;
+        }
+
+        #about-txt {
+            padding-left: 20px;
+            font-family: Monospace;
+            font-size: 200%;
+        }
+
+        #course-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        div.polaroid {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+            border-radius: 3%;
+            text-align: center;
+            background-color: white;
+        }
+
+        div.container {
+            font-size: 140%;
+            padding: 10px;
+            background-color: #E7E7E7;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="logo"
+            src="https://lh6.googleusercontent.com/8Jqzh7ea26j9RBYtJKquA7n2o5hWB4GRO6dkL7UtpggANwDzrbaCtBHjzBQ4HOlvec-OyXqtjsfvim2n9m1pNJIJ2emJMa3YefGN0vFi">
+        <div style="text-align:start; font-size: 50px;
+         padding:10px">Girls Code It
+        </div>
+    </header>
+    <div id="about">
+        <p id="about-us">About Us</p>
+        <p id="about-txt"> Girl Code It is a collaborative effort to build <br>
+            a healthy coding culture among young female
+            coders. </p>
+    </div>
+    <h1
+        style="width: fit-content; padding:5px;  margin: 0 auto; font-family: Allura; font-size:40px; text-shadow: 1px 2px 0px #E7E7E7;">
+        Courses Offered</h1>
+    <br>
+    <div id="course-block">
+        <div class="polaroid">
+            <img src="java.webp" alt="java" style="width:100%">
+            <div class="container">
+                <p>Java</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="cpp.png" alt="c++" style="width:80%; height: 60%; padding-top: 20px; padding-bottom: 15px;">
+            <div class="container">
+                <p>C++</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="c.png" alt="c" style="width:93%; height:65% ;padding-top: 10px; padding-bottom: 8px;">
+            <div class="container">
+                <p>C</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
