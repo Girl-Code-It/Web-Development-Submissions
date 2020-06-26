@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  </head>
+
+  <body style="background-color: hotpink;">
+    <h1>CONVERSION TO WHALE LANGUAGE</h1>
+    <p id="convert">To convert this sentence into whale language click on the button.</p>
+    <button onclick="converion()">Click Here</button>
+    <script>
+      function converion() {
+        var text = "";
+        var str = document.getElementById("convert").innerHTML;
+        for (var i = 0; i < str.length; i++) {
+          if (str[i] === "u" || str[i] === "e") {
+            text += str[i].repeat(2);
+          } else {
+            text += str[i];
+          }
+        }
+        document.getElementById("convert").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
