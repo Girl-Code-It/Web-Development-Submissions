@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://media.giphy.com/media/l4FGzAPvg5PbZrVlK/giphy.gif);
+    background-size: 1370px 660px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    padding: 2%;
+    font-size: 2em;
+}
+
+
+
+.btn{
+    color: white;
+    text-decoration: none;
+    border:  5px solid white;
+    border-radius: 20%;
+    
+    
+   
+}
+.btn:hover{
+    background-color: white;
+    color: tomato;
+}
+img{
+    position: absolute;
+    left: 4%;
+    top: 5%;
+}
