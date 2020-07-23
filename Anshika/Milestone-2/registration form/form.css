@@ -1,0 +1,175 @@
+body
+{
+    background-image: url("back.jpg");
+}
+
+.box
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 55%;
+    margin: 5% auto;
+}
+div
+{
+    vertical-align: bottom;
+}
+
+.name
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+}
+.name1
+{
+    padding: 10px;
+}
+
+.roll
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+}
+.roll1, .roll2
+{
+    padding: 10px;
+}
+.roll3
+{
+    width: 92%;
+}
+.roll4
+{
+    width: 90%;
+}
+
+.gen
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+}
+.gen1
+{
+    padding:10px;
+}
+.gen2
+{
+    width: 100%;
+}
+.contact
+{
+    display: grid;
+    grid-template-columns: 59% 40%;
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+
+}
+.contact1, .contact2
+{
+    padding:10px;
+}
+.contact3
+{
+    width: 96%;
+}
+.contact4
+{
+    width: 93%;
+}
+
+.parents
+{
+    display: grid;
+    grid-template-columns: 59% 39%;
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+}
+.parent1, .parent2
+{
+    padding:10px;
+}
+.parent3
+{
+    width: 96%;
+}
+
+input, select
+{
+    padding : 7px;
+    font-size: medium;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #f1f1f1;
+    width: 95%;
+}
+
+input[type=reset]
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #f1f1f1;
+    margin-left: 10px;
+}
+button
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #f1f1f1;
+}
+
+.submit:hover, .reset:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 7px;
+}
+
+.buttons
+{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+}
+label
+{
+    margin-left: 15px;
+    font-size: larger;
+    text-align: left;
+    color: whitesmoke;
+}
+sup
+{
+    color: rgb(255, 0, 0);
+    font-weight: 100px;
+}
+p
+{
+    vertical-align: top;
+    text-align: right;
+    font-size: 20px;
+    padding: 15px;
+    color: whitesmoke;
+    margin: 0px;
+}
+
+
