@@ -1,0 +1,83 @@
+table, th , td
+{
+    border : 1px solid black;
+    border-collapse: collapse;
+    width: 750px;
+}
+
+th
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.heading
+{
+    text-align: left;
+    font-size: 25px;
+    vertical-align: top;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+td
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+img
+{
+    width: 175px;
+    height: 150px;
+}
+
+h1
+{
+    text-align : center;
+    font-size: 90px;
+    text-decoration: underline;
+}
+
+h2
+{
+    font-size: 50px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+body
+{
+    background-image : url("basket.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 50% 75%;
+    margin : 50px;
+}
+
+a
+{
+    text-decoration : none;
+    font-size : xx-large;
+    margin-left : 50px;
+}
+
+a:visited
+{
+    color : blue;
+}
+
+a:hover
+{
+    color : rgb(255, 0, 0);
+}
+
+a:active
+{
+    color : blue;
+}

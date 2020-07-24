@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="Stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <form>
+            <div class="box">
+                <br>
+                   
+                <label for="name">Student's Name<sup>*</sup></label><br>
+                    <div class="name">
+                        <div class="name1"><input type="text" id="name" placeholder="First Name"  maxlength="30" required></div>
+                        <div class="name1"><input type="text" id="name" placeholder="Last Name" maxlength="30" required></div>
+                    </div>
+                                                            
+                    <div class="roll">
+                        <div  class="roll1">
+                            <label for="enroll">Enrollment No.<sup>*</sup></label><br>
+                            <input type="number" id="enroll" placeholder="xxxxx" maxlength="5" required>  
+                        </div>
+                        <div class="roll2">
+                            <label for="class">Class<sup>*</sup></label><br>
+                            <input class="roll4" type="number" id="class" min="9" max="12" required>
+                        </div>
+                        <div class="roll2">
+                            <label for="marks">Last Exams %<sup>*</sup></label><br>
+                            <input class="roll3"type="number" id="marks" min="0" max="100" required>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="gen" required>
+                        <div class="gen1">
+                            <label for="gender">Gender<sup>*</sup></label><br>
+                            <select class="gen2" id="gender" required>
+                                <option value="Select" selected>Select</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="gen1">
+                            <label for="date">Date of Birth<sup>*</sup></label><br>
+                            <input type="date" id="date" required>
+                        </div>                        
+                    </div>
+                    
+                    <div class="contact">
+                        <div class="contact1">
+                            <label for="email">Email</label><br>
+                            <input class="contact3" type="text" id="email">
+                        </div>
+                        <div class="contact2">
+                            <label for="cn1">Contact No.<sup>*</sup></label><br>
+                            <input class="contact4" type="number" id="cn1" placeholder="xxxxxxxxxx" required>
+                        </div>
+                        
+                    </div>
+
+                    <div class="parents">
+                        <div class="parent1">
+                            <label for="fname">Father's Name<sup>*</sup></label><br>
+                            <input class="parent3" type="text" id="fname" placeholder="Full Name" required>
+                        </div>
+                        <div class="parent2">
+                            <label for="cn2">Contact No.</label><br>
+                            <input class="parent4" type="number" id="cn2" placeholder="xxxxxxxxxx" maxlength="10">
+                        </div>
+                        <div class="parent1">
+                            <label for="mname">Mother's Name<sup>*</sup></label><br>
+                            <input class="parent3" type="text" id="mname" placeholder="Full Name" required>
+                        </div>
+                        <div class="parent2">
+                            <label for="cn3">Contact No.</label><br>
+                            <input class="parent4" type="number" id="cn3" placeholder="xxxxxxxxxx" maxlength="10">
+                        </div>
+                    </div>
+
+                    <br>
+                    
+                    <div class="buttons">
+                        <div><input class="reset" type="reset" value="Reset"></div>
+                        <div><button class="submit"><a href="thankyou.html">Submit</a></button></div>
+                        <div><p><sup>*</sup> feilds are mandatory</p></div>
+                    </div>     
+
+            </div>   
+        </form>
+    </body>
+</html>

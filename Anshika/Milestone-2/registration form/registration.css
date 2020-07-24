@@ -1,0 +1,36 @@
+body
+{
+    background-image: url("page1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-attachment: fixed;
+}
+
+marquee
+{
+    position: absolute;
+    top: 0%;
+    font-size: 45px;
+    color : #00b33c;
+    margin-top: 39%;
+}
+
+h1
+{
+    margin-top: 31%;
+    margin-left: 56%;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    font-weight: lighter;
+}
+
+a:hover
+{
+    color:#00b33c ;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}

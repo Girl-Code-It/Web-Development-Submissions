@@ -1,0 +1,43 @@
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td
+{
+    border-bottom: 1px solid rgb(226, 216, 216);
+    padding: 5px;
+}
+
+tr:hover
+{
+    background-color: #ebdfdf;
+}
+
+th
+{
+    text-align: center;
+    font-size: larger;
+    vertical-align: middle;
+    background-color:#4CAF50;
+    color: white;
+}
+
+.name
+{
+    text-align: left;
+}
+
+.no
+{
+    text-align: center;
+}
+
+.line
+{
+    font-size: xx-large;
+    color: rgba(76, 175, 79, 0.911);
+    font-weight: bold;
+}
+

@@ -1,0 +1,95 @@
+body
+{
+    margin: 0px;
+    background-image: url("back/abc.png");
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position-x: 850px;
+    background-position-y: 350px;
+}
+.header
+{
+    font-size: 100px;
+    text-shadow: 20px whitesmoke;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+header
+{
+    background-image: url("back/header.jpg");
+    background-size: 250px;
+    text-align: center;
+}
+.navi
+{
+    background-color: #5f5f5f;
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8%;
+}
+.links
+{
+    padding: 10px;
+    text-align: center;
+}
+.link1:hover
+{
+    background-color: rgb(255, 136, 0);
+    color: #5f5f5f;
+}
+.link1
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+marquee
+{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+}
+.atif
+{
+    height: 150px;
+}
+.separation
+{
+    background-color: #5f5f5f;
+    width: 100%;
+    height:5px;
+    margin-top: -5px;
+}
+b
+{
+    color: rgb(255, 136, 0);
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+p
+{
+    width:60%;
+    margin-top: 70px;
+    font-size: 25px;
+    margin-left: 70px;
+    font-family: 'Playball', cursive;
+    font-weight: 1px;
+}
+footer
+{
+    background-color: #5f5f5fd0;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+.author
+{
+    text-align: left;
+    width: 30%;
+    margin-left: 40%;
+}
