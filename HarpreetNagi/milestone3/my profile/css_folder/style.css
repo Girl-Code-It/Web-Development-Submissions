@@ -1,0 +1,452 @@
+
+
+
+
+
+
+
+    
+body{
+ text-align: center;
+  margin-top: 0px;
+
+ 
+ font-family: 'Merriweather', serif;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ padding-bottom: 0%;
+ color: #40514e;
+ background-color: #c3edea;
+ 
+ 
+}
+
+h1{
+     /* es use lia kyu ki hma text ka box utna krna ha jitna text ha *//* text box utna na vi kra to may bi  koe problem nahi ha kyu ki we use absolute or relative position to position text*/
+    margin: auto auto  auto  auto; /*  jab humne text ko width lagai to body yani ki parent tag me lga align centre work nahi kr ga so we use margin auto*/
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%; /* hum edr pixel use kr sakte that lekin jab user chrome ke setting me ja kr font size large kr ga to hamara font large nahi hota us ke lea us use % and 100% =16px*/
+    color:#0fabbc;
+    z-index: 3;
+}
+
+.textsize{
+     /* phela mene edr width di thi lekin  age mena lamba paragraph likha ha to phir mena width hta di kyu ki muja ek hi line me apna para chiye*/            /* same done with width as i done with h1*/
+    margin: auto;
+    font-size: 200%;
+    color:#0fabbc;
+    
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#0fabbc;
+    font-size: 30px;
+    margin: 50px auto 50px auto;;
+    width: 100%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#0fabbc;
+    font-size: 30px;
+    margin: auto;
+    
+}
+
+.chotu{
+    font-family: 'Montserrat', sans-serif;
+    color:#0fabbc;
+    font-size: 20px;
+    margin: 50px auto 50px auto;;
+}
+
+
+hr{
+    border: dotted  #c3edea 6px;
+    border-bottom: none;
+    width:5%;
+    margin: 100px auto 100px auto;
+}
+.top-container{
+    padding-top: 200px;
+    background-color: #c3edea;
+    width: 100%;
+    
+    
+}
+
+.cloud1{
+    position: absolute; /* yha hum ne ek ka use kia and absolute kheta ha ki
+                             margin is given in relative to its parent and yha pr parent to body ha aur
+                              body me humne centre aur top margin 100px di ha to ye esa bi asa hi set kr de ga*/
+     left: 50px; /* position absolute me hum ne right aur top ki length enti di kyu ki hum to cloud text ke isde pr chaiye tha*/
+     top: 250px;
+     z-index: 2;
+     width: 1px;
+}
+.mountain{
+    z-index: 3;
+}
+.profile{
+    width: 25%;
+    margin: auto;
+    font-weight: normal;
+}
+
+.skills{
+   
+    margin: auto;
+   
+   
+  
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+    
+    text-align: left;
+   
+}
+
+.cloud2{
+    z-index: 2;
+    position: absolute;
+
+    
+}
+
+
+.middle-container{
+    background-color: #ffffff;
+    margin: 0 auto 0 auto ;
+
+    
+}
+
+
+.bottom-container{
+    background-color: #c3edea;
+    color: #ffffff;
+    
+    
+}
+
+
+.cooking{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    float:right;
+    border-radius: 100%;
+}
+
+.design{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-right: 30px;
+    float:left;
+    border-radius: 100%;
+    
+}
+
+
+.logo{
+    width:20px ;
+    height:20px ;
+}
+
+.me{
+    width: 150px;
+    height: 150px;  
+}
+
+
+
+p{
+    margin-bottom: 0px;/* ye isa lea likha kyu ke last vala jo paragraph ha uski margin thi jis ke karan last tak color fill nahi ho rha tha*/
+
+
+}
+
+
+.btn {
+   
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  
+
+  .contact-me{
+      margin: 100px auto 0px auto;
+  }
+
+
+  .kills{
+    margin: auto  auto auto auto;
+  }
+
+  a{
+      color: #0fabbc;
+      text-decoration: none;
+  }
+
+  .fotter-link:hover{
+      color: #ffffff;
+  }
+
+
+
+  nav{
+      width: 100%;
+      height: 18vh;
+      background-color:#c3edea;
+    
+      margin: 0;
+      padding: 0;
+    
+  }
+
+  .logo-image{
+      border-radius: 100%;
+      width: 80px;
+      position: absolute;
+      top: 5%;
+      left: 10%;
+  }
+
+
+  nav .list-items{
+ 
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Sacramento', cursive;
+      padding: 2% 5%;
+      margin: 0;
+    
+  
+      
+  }
+
+   .nav-ele h2{
+    font-family: 'Sacramento', cursive;
+  
+    font-size: 3.5em;
+    margin: 0;
+    padding: 0;
+  
+  
+    
+  }
+  .nav-ele h2:hover{
+    color: #c3edea;
+}
+
+   .line{
+      width: 100%;
+      height: 1px;
+   
+      background-color: white;
+    
+  }
+
+
+ @media screen and (max-width:800px)
+ {
+     body{
+         text-align:center;
+         align-items: center;
+         background-color:#c3edea;
+         width: 100%;
+     }
+     
+     .top-container{
+         background-color:#c3edea;
+         width:105%;
+     }
+     .colud1{
+        width: 50px;
+        height: 50px;
+         position: absolute;
+         left: 0;
+         
+     
+     }
+     .colud2{
+        width: 50px;
+        height: 50px;
+        position:absolute;
+     
+        
+        
+    }
+    .mountain{
+        position:relative;
+        width: 80%;
+    }
+    .top-container h1, .textsize{
+        font-size:1.5em;
+    }
+    .top-container h1{
+        font-size:3.5em;
+    }
+    .middle-container .profile .me{
+        width: 25%;
+        height: 25%;
+       
+    }
+    .middle-container{
+        padding-top: 50px;
+    }
+    .middle-container .kills{
+        font-size:1.5em;
+        padding-top:5%;
+    }
+    .middle-container .profile{
+        text-align: center;
+    }
+    .profile {
+        width: 100%;
+        text-align: center;
+    
+    }
+    .profile p{
+        width: 98%;
+        margin: 5% 0;
+       
+        padding: 5% 0;
+        font-size: .8em;
+    }
+    .skill-row .design , .cooking{
+        width: 25%;
+        height: 25%;
+        float: none;
+        margin: 5% auto auto auto;
+    }
+    .skill-row{
+        text-align:center;
+        width: 100%;
+    }
+    .skill-row h3{
+        font-size:1.2em;
+        padding-bottom: 5%;
+    }
+    .skill-row .kills{
+        padding:10% auto;
+    }
+    .skill-row p{
+        font-size:.8em;
+        padding: 1%;
+    }
+    .contact-me .name-text {
+        font-size:1.5em;
+    }
+    .contact-me p{
+        font-size:.8em;
+    }
+    .btn{
+        -webkit-border-radius: 30;
+        -moz-border-radius: 30;
+        border-radius: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    }
+
+    .bottom-container span , p{
+        font-size:.8em;
+        padding: 2%;
+    }
+
+    nav{
+      width: 100%;
+      height: 10vh;
+      background-color:#c3edea;
+    
+      margin: 0;
+      padding: 0;
+    
+  }
+
+  .logo-image{
+      border-radius: 100%;
+      width: 50px;
+      position: absolute;
+      top: 3%;
+      left: 5%;
+      padding: 0;
+      margin: 0;
+  }
+
+
+  nav .list-items{
+ 
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Sacramento', cursive;
+      padding: 2.5% 5% 5% 5%;
+      margin: 0;
+    
+  
+      
+  }
+
+   .nav-ele h2{
+    font-family: 'Sacramento', cursive;
+  
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+  
+  
+    
+  }
+
+  .nav-ele h2:hover{
+      color: #0fabbc;
+  }
+
+ 
+
+ }
+
+
