@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> UI</title>
+        <meta name="viewport" content="width=decive-width, initial-scale=1">
+        <script src="https://use.fontawesome.com/5927deb4cb.js"></script>
+
+        <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: lightcoral;
+    margin-left: 1rem;
+}
+span{
+    color: #00E8E8;
+}
+a{
+    text-decoration: none;
+}
+ul{
+  list-style: none;  
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    padding-top: 5px;
+ margin:30px 20px;
+}
+.nav-links ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+.nav-links ul li a:hover{
+    color: #00E8E8;
+}
+.button button{
+    padding: 13px 46px;
+    margin:15px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: .25rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.button button:hover{
+    color:white;
+    background-color: #00E8E8;
+    transition: all 300ms ease-in;
+}
+.bootstrap{
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(img/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height:632px;
+}
+.bootstrap h1{
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-top: 11%;
+    margin-bottom:3%;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.bootstrap p{
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+.bootstrap ul{
+    display:flex;
+    margin-top: 3%;}
+#buy{
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  width:140px;
+  height:55px;
+  margin-right:45px;
+  color: white;
+  font-size:16px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#buy:hover{
+    background-color: #212529;
+    border: 2px solid #212529;
+    transition: all 150ms ease-in-out;
+}
+#know{
+  border: 2px solid white;
+  border-radius: 4px;
+  width:140px;
+  height:55px;
+  background-color: white;
+  font-size:16px;
+  color: #212529;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#know:hover{
+    background-color: rgb(226, 223, 223);
+    border: 2px solid rgb(226, 223, 223);
+    transition: all 150ms ease-in-out;
+}
+.features{
+    padding-top: 7%;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    width:50%;
+    margin: auto;
+}
+.features h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    line-height:1.2;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.features p{
+    width:90%;
+    margin-top: 5%;
+    font-family: 'Lato';
+    text-align: center;
+    color: rgb(33,37,41);
+    opacity: 0.7;
+}
+.cards{
+    width:80%;
+    margin: auto;
+    padding-left:2%;
+    margin-bottom: 50px;
+}
+.cards ul{
+    padding-top: 50px;
+    display:flex;
+}
+.cards ul li{
+    width:318px;
+    border: 1px solid rgb(226, 223, 223);
+    margin-left: 50px;
+}
+.cards ul li img{
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    width:318px;
+    height:212px;
+}
+h3{
+    padding-top: 15px;
+    margin-bottom: .75rem;
+    font-size: 1.5rem;
+    font-weight: 450;
+    line-height: 1.2;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: center;
+}
+.cards p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: center;
+    padding:0 20px;
+    padding-bottom: 20px;
+}
+.like-share{
+    padding-top:3%;
+    padding-right:2%;
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 433px;
+    display: flex;
+    flex-flow: column;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+.like-share h1{
+
+    color:white;
+    font-family: 'Righteous';
+    margin-top: 20%;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.like-share p{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 4%;
+    margin-right: 15%;
+}
+#show{
+    margin-top: 7%;
+    width: 29%;
+    padding: 2% 5%;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 3px;
+    color: white;
+    font-size:16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#show:hover{
+    background-color: rgb(182, 55, 55);
+    border: 1px solid rgb(182, 55, 55);
+    transition: all 150ms ease-in-out;
+}
+.more-info{
+    width: 80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+}
+.more-info>div{
+    display:flex;
+    margin: 30px;
+}
+.more div h4{
+    font-size: 25px;
+    margin-right: 20px;
+    
+}
+.more-info i {
+    font-size: 60px;
+    color: #00E8E8;
+    margin-right: 10px;
+}
+h4{ margin-bottom: 10px;
+    font-size: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    text-align: start;
+    margin-left: 3px;
+}
+.supportp p{
+        color: rgb(0,0,0,0.59);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.marketingp p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.speedp p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.authorisedp p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.seo i{
+    font-size:35px;
+}
+.seop p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.customizep p{
+    color: rgb(0,0,0,0.59);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.join{
+    background-color: #343a40;
+    display:flex;
+    justify-content:center;
+    padding-top:7%;
+    padding-bottom: 15%;
+}
+.join img{
+    margin-right: 5%;
+}
+.join h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.joinp h2{
+    color: #00E8E8;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2.2rem;
+    padding:10px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    
+}
+.joinp{
+    width:30%;
+    color:#ffff;
+    font-family: 'Roboto Condensed';
+    font-size: 23px;
+}
+.joinp p{
+    padding-top: 20px;
+}
+.last-row{
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5%;
+}
+.links ul{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.last-row h1{
+    font-family: 'Lato';
+    padding: 30px;
+    font-weight:400;
+    font-size: 1.5rem;
+}
+.last-row h2{
+    font-family: 'Lato';
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.email{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.email input{
+    width:370px;
+    height: 38px;
+    margin-left: 20px;
+    padding:  8px 24px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 2px;
+}
+.email button{
+    border-radius: 3px;
+    width: 130px;
+    height: 38px;
+    padding-right: 1rem;
+    padding-left: 0.25rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+.email button:hover{
+    background-color: rgb(182, 55, 55);
+    border: 1px solid rgb(182, 55, 55);
+}
+.links ul li{
+    color: #dc3545;
+    font-size: 24px;
+    margin: 10px;
+    opacity: 0.8;
+}
+footer{
+    border: 1px solid rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightseagreen;
+    font-family: 'Lato';
+    font-weight:400;
+    padding: 10px;
+    font-size: 20px;
+}
+        </style>
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#">Dtu:)<span>tuition</span></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+                <form class="button">
+                    <button type="submit">Template</button>
+                </form>
+        </header>
+        <main>
+            <div class="bootstrap">
+                <h1>Bootstrap User Interface</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta.</p>
+                <ul>
+                    <li><button id="buy" type="submit">Buy Template</button></li>
+                    <li><button id="know" type="submit">Know Features</button></li>
+                </ul>
+            </div>
+            <div class="features">
+                <h1>Fantastic Features
+                    </h1>
+                    <h1>& Different Type of Template</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae in, ab aspernatur sed minus cumque asperiores optio impedit, id nostrum nihil dolorem repudiandae, distinctio dolorum quaerat fuga! Aspernatur, facilis!
+                    </p>
+            </div>
+            <div class="cards">
+                <ul>
+                <li class="card-1">
+                    <img src="img/1.jpg">
+                    <h3>Responsive</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, natus incidunt! Esse magni quo reiciendis? Aut repellendus maxime maiores eligendi.</p>
+                </li>
+                <li class="card-2">
+                   <img src="img/2.jpg">
+                   <h3>Flexibile</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio repudiandae pariatur corrupti impedit voluptatum optio harum quod vitae corporis!</p>
+                </li>
+                <li class="card-3">
+                    <img src="img/3.jpg">
+                    <h3>UI/UX</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio repudiandae pariatur corrupti impedit voluptatum optio harum quod vitae corporis!</p>
+                </li>
+            </ul>
+        </div>
+            <div class="like-share">
+                <div class="likep">
+                <h1>Like & Share Your Love</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magnam?</p>
+                <button id="show" type="submit" value="show">Show</button>
+                </div>
+        </div>
+            <div class="more-info">
+                <div class="24-7">
+                    <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                    <div class="supportp">
+                        <h4>24/7 Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                    </div>
+                </div>
+                <div class="marketing">
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <div class="marketingp">
+                        <h4>Marketing</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                    </div>
+                </div>
+            <div class="speed">
+                <i class="fa fa-plane" aria-hidden="true"></i>
+                <div class="speedp">
+                    <h4>Speed</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                </div>
+             </div>
+             <div class="authorised">
+                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                <div class="authorisedp">
+                 <h4>Authorised</h4>
+                 <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                </div>
+             </div>
+             <div class="seo">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <div class="seop">
+                    <h4>SEO</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                </div>
+             </div>
+             <div class="customize">
+                <i class="fa fa-sliders" aria-hidden="true"></i>
+                <div class="customizep">
+                    <h4>Customize</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ducimus dolorum, culpa impedit odio alias iste sunt autem labore, aperiam doloribus consequuntur quasi assumenda neque veniam aliquam adipisci possimus atque.</p>
+                </div>
+             </div>
+            </div>
+            <div class="join">
+                <img src="img/7.jpg" width=590px height=332px>
+                <div class="joinp">
+                    <h1>Didn't Know Where to start From</h1>
+                    <h2>Join Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus accusamus pariatur, libero dicta neque dolores ab, corrupti obcaecati possimus necessitatibus ex natus distinctio nisi, enim ea quas dolorum rem et. Ducimus quis recusandae iste enim, id quam deserunt labore!</p>
+                </div>
+            </div>
+            <div class="last-row">
+                <h1>Get Template Design From Daily Tuition</h1>
+                <h2>If you need any Help</h2>
+                <div class="email">
+                <input type="email" placeholder="Email">
+                <button type="submit">Contact Us</button>
+                </div>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+        </main>
+        <footer>
+            <p>Daily Tuition<i class="fa fa-copyright" aria-hidden="true"></i></p>
+        </footer>
+    </body>
+</html>
