@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <form action="">
+        <fieldset>
+        <label for="FName">First Name :</label><br>
+        <input type="text" id="FName" placeholder = "Enter Your First Name" required autofocus><br><br>
+
+        <label for="LName">Last Name :</label><br>
+        <input type="text" id="LName"  placeholder = "Enter Your Last Name" ><br><br>
+
+        <label for="Father's Name">Father's Name :</label><br>
+        <input type="text" id="Father's Name" placeholder = "Enter Your Father's Name" required><br><br>
+
+        <label for="Mother's Name">Mother's Name :</label><br>
+        <input type="text" id="Mother's Name" placeholder = "Enter Your Mother's Name" required><br><br>
+
+        <label for="RollNo.">Roll No. :</label><br>
+        <input type="text" id="RollNo." placeholder = "Enter Your Roll no" required><br><br>
+
+        <label for="Year">Current Year</label>
+        <select id="Year">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+        </select><br><br>
+        
+        Gender <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        DOB <input type="date" required><br><br>
+
+        <label for="Hosteller">Hosteller</label>
+        <input type="checkbox" id="Hosteller"><br><br>
+
+        <label for="Address">Address</label>
+        <br><textarea id="Address" cols="30" rows="5"></textarea><br><br>
+        <label for="Email Id">Email Id</label><br>
+        <input type="email" id="Email Id" placeholder = "Enter Your Email Id" required><br><br>
+
+        <label for="Phone No.">Phone No.</label><br>
+        <input type="tel" id="Phone No." placeholder = "Enter Your phone no" ><br><br>
+    </fieldset><br>
+        <input type="submit">
+        <button type="button" onclick="alert('Do you want to Reset ?')">Reset</button>
+   
+    </form>
+</body>
+</html>
