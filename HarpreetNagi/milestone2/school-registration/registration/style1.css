@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 1370px 660px;
+  object-fit: cover;
+  
+  margin: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: aliceblue;
+  font-family: 'Bitter', serif;
+  
+   
+}
+.regform{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+    border-radius: 100% 100% 0  0;
+    height: 10vh;
+}
+.form-head{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Bitter', serif;
+    letter-spacing: 2%;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.body-div{
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    height: auto;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 0 0 10% 10%;
+    
+}
+.form-text{
+    color: aliceblue;
+    padding-left: 1%;
+    font-size: 1em;
+    font-family: 'Bitter', serif;
+    padding-top: 2%;
+
+
+}
+
+.form-row{
+    color: aliceblue;
+    padding-top: 2%;
+    
+    
+    font-family: 'Bitter', serif;
+}
+label{
+    color: aliceblue;
+    font-family: 'Bitter', serif;
+}
+.space{
+    padding-left: 2%;
+}
+.form-group{
+    color: aliceblue;
+    
+   
+    font-family: 'Bitter', serif;
+}
+.text{
+    padding-left: 1%;
+}
+.btn-align{
+    text-align: center;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+
+}
+.link-btn:hover{
+    text-decoration: none;
+    color: white;
+
+}
