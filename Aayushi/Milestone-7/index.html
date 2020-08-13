@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Milestone-7</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Milestone-7</h2>
+  <hr>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Question-1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Question-2</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>QUESTIONS</h3>
+      <a data-toggle="tab" href="#menu1" class="active">Question-1</a>
+      <p>Every country measures temperature according to different scales. Being a scientist at the Temperature department it is your job to provide the reading according to all scales. Write a program to convert a given temperature reading (in Kelvin) to celsius and Fahrenheit. </p>
+      <a data-toggle="tab" href="#menu2">Question-2</a>
+      <p>Your puppy dog grew much faster compared to your small brother. Confused, you went to the pet shop and the owner told that dogs age differently than humans. Write a program to convert given Human years into Dog years. (1 human year is equal to 8 dog years)</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Question-1</h3>
+      <p>Every country measures temperature according to different scales. Being a scientist at the Temperature department it is your job to provide the reading according to all scales. Write a program to convert a given temperature reading (in Kelvin) to celsius and Fahrenheit. </p>
+      <br>
+      <div class="jumbotron">
+        <code>
+          &ltscript&gt <br> 
+          var tempC, tempK=273.15, tempF; <br> 
+          tempK=prompt("Enter temperature in Kelvin : "); <br>
+          tempC=tempK-273.15; <br>
+          tempF=((tempK - 273.15)*9)/5 + 32; <br>
+          alert(`Temprature in Fahrenheit : ${tempF}`); <br>
+          alert("Temprature in Celsius : "+tempC); <br>
+          &lt/script&gt 
+        </code>
+      </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Question-2</h3>
+      <p>Your puppy dog grew much faster compared to your small brother. Confused, you went to the pet shop and the owner told that dogs age differently than humans. Write a program to convert given Human years into Dog years. (1 human year is equal to 8 dog years)</p>
+      <div class="jumbotron">
+        <code>
+          &ltscript&gt <br> 
+          var human, dog; <br> 
+          human=prompt("Enter Human years : ",human); <br>
+          dog=human*8; <br>
+          alert(human + " Human 👩👨 years are equivalent to " + dog + " Dog 🐶 years !! "); <br>
+          &lt/script&gt
+        </code>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script>
+          var tempC=0, tempK=0, tempF=0;
+          tempK=prompt("Enter temperature in Kelvin : ");
+          tempC=tempK-273.15;
+          tempF=((tempK - 273.15)*9)/5 + 32;
+          alert(`Temprature in Fahrenheit : ${tempF}`);
+          alert("Temprature in Celsius : "+tempC);
+
+          var human, dog;
+          human=prompt("Enter Human years : ",human);
+          dog=human*8;
+          alert(human + " Human 👩👨 years are equivalent to " + dog + " Dog 🐶 years !! ");
+      </script>
+
+</body>
+</html>
