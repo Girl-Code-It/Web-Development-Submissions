@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Score Keeper</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <style>
+            body{
+                background-image: url(https://imgur.com/iVjSrGn.jpg);
+                background-size:cover;
+                background-attachment:fixed;
+            }
+            .content{
+                background-color:rgba(0,0,0,0.6);
+                color:white;
+                text-align:center;
+                margin:10% 30%;
+                padding:20px;
+            }
+            .green{
+                color:green;
+            }
+        </style>
+       
+    </head>
+
+    <body>
+
+        <div class="content">
+            <h1><strong>My Score Board</strong></h1>
+            <h3><big>Score : </big><span id="score1"> 0 </span> to <span id="score2"> 0 </span> </h3>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="c1">Player 1</button>
+                <button type="submit" class="btn btn-primary" id="c2">Player 2</button>
+                <button class="btn btn-danger" id= "reset">Reset</button>
+            </div>
+            <br>
+            <input type="number" id="limit" value=5 class="form-control">
+            <h3>The winner is: <span id="winner"></span></h3>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <script>
+            var button1=document.querySelector("#c1");
+            var p1=document.querySelector("#score1");
+            var score1=0;
+            var button2=document.querySelector("#c2");
+            var p2=document.querySelector("#score2");
+            var score2=0;
+            var reset=document.querySelector("#reset");
+            var winner=document.querySelector("#winner");
+            button1.addEventListener("click", function() {
+                var limit=document.querySelector("#limit").value;
+                score1++;
+                p1.textContent=score1;
+                if(score1==limit || (score1>score2 && score1>limit)){
+                    p1.classList.add("green");
+                    button1.setAttribute("disabled","true");
+                    button2.setAttribute("disabled","true");
+                    printWinner();
+                }
+            });
+            button2.addEventListener("click", function(){
+                var limit=document.querySelector("#limit").value;
+                score2++;
+                p2.textContent=score2;
+                if(score2==limit || (score1<score2 && score2>limit)){
+                    p2.classList.add(".green");
+                    button1.setAttribute("disabled","true");
+                    button2.setAttribute("disabled","true");
+                    printWinner();
+                }
+            });
+            reset.addEventListener("click", function(){
+                button1.removeAttribute("disabled");
+                button2.removeAttribute("disabled");
+                p1.classList.remove("green");
+                p2.classList.remove("green");
+                score1=0; score2=0;
+                p1.textContent=score1;
+                p2.textContent=score2;
+                document.getElementById("limit").value = 5;
+                winner.textContent=" ";
+            });
+            function printWinner(){
+                if(score1>score2){
+                    winner.textContent="Player-1"
+                }
+                else{
+                    winner.textContent="Player-2"
+                }
+            }
+        </script>
+
+    </body>
+</html>
