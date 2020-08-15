@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Milestone-8</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Milestone-8</h2>
+  <hr>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Question-1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Question-2</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>QUESTIONS</h3>
+      <a data-toggle="tab" href="#menu1" class="active">Question-1</a>
+      <p>No one likes maths, and so do you. But your teacher doesn’t understand this and has given you the assignment to calculate the factorial of 50 numbers. Let us use the knowledge of programming we have gained so far to our benefit, write a function to calculate factorial of a number.</p>
+      <a data-toggle="tab" href="#menu2">Question-2</a>
+      <p>Your college is organizing a marathon. Being a member of the organizing committee it is your job to let everyone know the right details. Write a program to let runners (youth and adult) know their race number and start time on the basis of given details :<br><br>
+        Race number:<br>
+        1. Early adults receive a race number at or above 1000.<br>
+        2. All others receive a number below 1000.<br><br>
+        Start time:<br>
+        1. Adult registrants run at 9:30 am or 11:00 am.<br>
+          -Early adults run at 9:30 am.<br>
+          -Late adults run at 11:00 am.<br>
+        2. Youth registrants run at 12:30 pm (regardless of registration).<br>
+        Participants will provide you with their age and if they registered early or late.
+    </p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Question-1</h3>
+      <p>No one likes maths, and so do you. But your teacher doesn’t understand this and has given you the assignment to calculate the factorial of 50 numbers. Let us use the knowledge of programming we have gained so far to our benefit, write a function to calculate factorial of a number.</p>
+      <br>
+      <pre>
+        <code>
+          &ltscript&gt
+              var num;
+              num=prompt("Enter a number : ",num);
+              function factorial(num){
+                var fact=1;
+                for(var i=1; i<=num; i++){
+                  fact=fact*i;
+                }
+                return fact;
+              }
+              var fact=factorial(num);
+              alert("Factorial of "+ num +" : "+fact);
+          &lt/script&gt 
+        </code>
+      </pre>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Question-2</h3>
+      <p>Your college is organizing a marathon. Being a member of the organizing committee it is your job to let everyone know the right details. Write a program to let runners (youth and adult) know their race number and start time on the basis of given details :<br><br>
+        Race number:<br>
+        1. Early adults receive a race number at or above 1000.<br>
+        2. All others receive a number below 1000.<br><br>
+        Start time:<br>
+        1. Adult registrants run at 9:30 am or 11:00 am.<br>
+          ✔ Early adults run at 9:30 am.<br>
+          ✔ Late adults run at 11:00 am.<br>
+        2. Youth registrants run at 12:30 pm (regardless of registration).<br>
+        Participants will provide you with their age and if they registered early or late.
+      </p>
+      <pre>
+        <code>
+          &ltscript&gt
+              var age, youth, adult;
+              age=prompt("Enter your age : ",age);
+              if(age>20){
+                if(age<40){
+                  alert("Race number is greater than or equal to 1000");
+                  alert("Early adults run at 9:30 am.");
+                }
+                else{
+                  alert("Race number is below 1000");
+                  alert("Late adults run at 11:00 am.");
+                }
+              }
+              else{
+                alert("Race number is greater than or equal to 1000");
+                alert("Youth registrants run at 12:30 pm");
+              }
+          &lt/script&gt
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
+          <script>
+              var num;
+              num=prompt("Enter a number : ",num);
+              function factorial(num){
+                var fact=1;
+                for(var i=1; i<=num; i++){
+                  fact=fact*i;
+                }
+                return fact;
+              }
+              var fact=factorial(num);
+              alert("Factorial of "+ num +" : "+fact); 
+
+              var age;
+              age=prompt("Enter your age : ",age);
+              if(age>20){
+                if(age<40){
+                  alert("Race number is greater than or equal to 1000");
+                  alert("Early adults will run at 9:30 am.");
+                }
+                else{
+                  alert("Race number is below 1000");
+                  alert("Late adults will run at 11:00 am.");
+                }
+              }
+              else{
+                alert("Race number is greater than or equal to 1000");
+                alert("Youth registrants will run at 12:30 pm");
+              }
+
+          </script>
+
+</body>
+</html>
