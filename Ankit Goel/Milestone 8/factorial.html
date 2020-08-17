@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+    </div>
+    <script>
+        let num = window.prompt("Enter a number: ");
+        let main = document.querySelector('.main');
+        main.insertAdjacentHTML("afterbegin", `<p>Factorial of ${num} is : </p>`)
+        factorial(num)
+        function factorial(num) {
+            let fact = 1;
+            if (num < 0) {
+                main.append("Invalid")
+            }
+            else {
+                for (let i = 1; i <= num; i += 1) {
+                    fact *= i;
+                }
+                main.append(fact)
+            }
+        }
+    </script>
+
+</body>
+
+</html>
