@@ -27,7 +27,7 @@ function main() {
 }
 
 function game(userChoice) {
-  const computerChoice = getCompChoice();
+  var computerChoice = getCompChoice();
 
   switch (userChoice + computerChoice) {
     case "pr":
