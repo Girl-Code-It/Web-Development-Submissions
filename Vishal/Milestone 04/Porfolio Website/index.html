@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Marck+Script&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
 </head>
 
 <body>
     <nav id="navbar">
-        <div id="logo">Vishal</div>
+        <div id="logo"><a href="#home">Vishal</a></div>
         <ul>
-            <li class="item"><a href="#home">Home</a></li>
-            <li class="item"><a href="#about">About</a></li>
-            <li class="item"><a href="#skills">Skills</a></li>
-            <li class="item"><a href="#projects">Projects</a></li>
-            <li class="item"><a href="#contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <section id="home">
@@ -27,63 +28,67 @@
             coders. Being an avid coder, I want to contribute my best to the society!</p>
     </section>
     <section id="about">
-        <div>
+        <div id="image">
+            <img src="Images/Me.jpg" alt="">
+        </div>
+        <div class="About">
             <h2>About Me</h2>
             <p>I am currently a second year student at Netaji Subhas University of Technology
-            and pursuing my B.Tech in Electrical Engineering. I am a Competitive Programmer & Frontend Web Developer.</p>
+            and pursuing my B.Tech in Electrical Engineering. I am a Competitive Programmer and Frontend Web Developer.</p>
         </div>
-        <div>
+        <div class="About">
             <h2>Education</h2>
             <div>
                 <h3>Netaji Subhas University of Technology</h3>
-                <p>Electrical Engineering | Aug 2023</p>
+                <p>Electrical Engineering <span>•</span> Aug 2023</p>
             </div>
             <div>
                 <h3>Rajkiya Pratibha Vikas Vidhyalaya</h3>
-                <p>Physics, Chemistry and Mathematics | March 2019 <br>Secured 96% In PCM</p>
+                <p>Physics, Chemistry and Mathematics <span>•</span> March 2019 <br>Secured 96% In PCM</p>
             </div>
             <div>
                 <h3>Rajkiya Pratibha Vikas Vidhyalaya</h3>
-                <p>Science and Mathematics | March 2017 <br>Secured 10 CGPA</p>
+                <p>Science and Mathematics <span>•</span> March 2017 <br>Secured 10 CGPA</p>
             </div>
         </div>
     </section>
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>C <br> <progress min="0" max="100" value="90"></progress></li>
-            <li>C++ <br> <progress min="0" max="100" value="75"></progress></li>
-            <li>Data Structures And Algorithms <br> <progress min="0" max="100" value="70"></progress></li>
-            <li>Python <br> <progress min="0" max="100" value="60"></progress></li>
-            <li>HTML5 <br> <progress min="0" max="100" value="40"></progress></li>
+            <li class="Skills"><img src="Images/c.JPG" alt="">C <br> <progress min="0" max="100" value="90"></progress></li>
+            <li class="Skills"><img src="Images/cpp.JPG" alt="">C++ <br> <progress min="0" max="100" value="75"></progress></li>
+            <li class="Skills"><img src="Images/python.JPG" alt="">Python <br> <progress min="0" max="100" value="60"></progress></li>
+            <li class="Skills"><img src="Images/html.JPG" alt="">HTML5 <br> <progress min="0" max="100" value="70"></progress></li>
+            <li class="Skills"><img src="Images/css.JPG" alt="">CSS3 <br> <progress min="0" max="100" value="40"></progress></li>
         </ul>
     </section>
     <section id="projects">
-        <h2>Developer's Projects</h2>
-        <ul>
-            <li>Online Meal Delivery Website</li>
-            <li>Gym Website</li>
-            <li>Others</li>
-        </ul>
-        <h2>Competitive Programmer's Profile</h2>
-        <ul>
-            <li>LeetCode</li>
-            <li>Hackerearth</li>
-            <li>HackerRank</li>
-        </ul>
+        <h2>Projects</h2>
+        <div>
+            <a href="https://github.com/Vishal-raj-1/Online-Meal-Delivery-Website"><img src="Images/website1.PNG" alt="Online-Meal-Delivery-Website"><h2>Online Meal Delivery Website</h2></a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil exercitationem, repudiandae cumque repellat minima nobis? Est corrupti perferendis eveniet molestiae, repudiandae quia! Nobis facere earum rem cum praesentium ut magnam quos dicta?
+            </p>
+        </div>
+        <div>
+            <a href="https://github.com/Vishal-raj-1/Web-Development-Tutorials/tree/master/GYM%20Website"><img src="Images/website2.PNG" alt="Gym-website"><h2>Gym Website</h2></a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil exercitationem, repudiandae cumque repellat minima nobis? Est corrupti perferendis eveniet molestiae, repudiandae quia! Nobis facere earum rem cum praesentium ut magnam quos dicta?
+            </p>
+        </div>
     </section>
     <section id="contact">
-        <h2 id="Profile">Profile</h2>
+        <h2>Connect With Me</h2>
         <p>
-        <a href="https://www.linkedin.com/in/vishal-0710061a1"><img alt="Linkedin" src="https://image.flaticon.com/icons/png/512/174/174857.png" height="50px" width="50px" /></a>
+        <a href="https://www.linkedin.com/in/vishal-0710061a1"><img alt="Linkedin" src="https://image.flaticon.com/icons/png/512/174/174857.png" /></a>
 
-        <a href="https://github.com/Vishal-raj-1"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="50px" width="50px" /></a>
+        <a href="https://github.com/Vishal-raj-1"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" /></a>
 
-        <a href="https://www.hackerrank.com/Vishal_Rajput"><img alt="Hackerrank" src="https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg" height="50px" width="50px" /></a>
+        <a href="https://www.hackerrank.com/Vishal_Rajput"><img alt="Hackerrank" src="https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg" /></a>
 
-        <a href="https://leetcode.com/vishal_rajput/"><img alt="Leetcode" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" height="50px" width="50px" /></a>
+        <a href="https://leetcode.com/vishal_rajput/"><img alt="Leetcode" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" /></a>
         
-        <a href="https://www.hackerearth.com/@Vishal_rajput"><img alt="Hackerearth" src="https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png" height="50px" width="50px" /></a>
+        <a href="https://www.hackerearth.com/@Vishal_rajput"><img alt="Hackerearth" src="https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png" /></a>
        </p>
     </section>
     <footer>

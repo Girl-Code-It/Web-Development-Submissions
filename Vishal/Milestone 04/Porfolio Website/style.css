@@ -3,74 +3,115 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
-/* Navigation Bar */
+/* Navigation Bar */ /*Done*/
 #navbar{
-    background-color: rgb(160, 165, 163);
+    background-color: rgb(36 72 132 / 84%);
     overflow: auto;
+    top: 0px;
+    position: sticky;
 }
 
-/* Navigation Bar : Logo*/
+/* Navigation Bar : Logo*/ 
 #logo{
-    display: inline-block; /* Taki ye puri jgah na le */
-    border: 2px solid red;
-    padding: 3px 13px;
-    margin: 5px 107px;
-    font-size: 23px;
+    display: inline-block;
+    margin-left:107px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
 }
 
 #navbar ul{
     float: right;
-    border: 2px solid blueviolet; /* Use overflow property in #navbar */
-    margin-right: 63px;
+    margin-right: 8%;
+    justify-items: center;
 }
 
 #navbar ul li{
-    border: 2px solid red;
     display: inline-block;
     list-style: none;
-    padding: 4px 13px;
     margin: 8px 12px;
 }
 
-/* Home Section */
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(180, 212, 238);
+    font-size: 1.6rem;
+}
+
+#navbar a:hover{
+    color: white;
+}
+
+/* Home Section */ /*Done*/
 #home {
-    border: 2px solid red;
-    padding: 34px 23px;
-    height: 80vh;
+    height: 600px;
+    padding: 2%;
+    background: url('Images/bg1.jpg') no-repeat top center/cover;
+    color: white;
 }
 
 #home h1{
-    width: 400px;
-    border: 2px solid rgb(0, 0, 0);
-    font-size: 5rem;
-    margin: 84px auto 2px;
+    padding: 6% 3% 0%;
+    width: 700px;
+    margin: 2px auto;
+    font-size: 8rem;
+    font-family: 'Marck Script', cursive;
 }
 
 #home p{
-    border: 2px solid blue;
     width: 46em;
-    text-align: justify;
-    padding: 9px 20px;
+    text-align: center;
+    padding: 3% 20px;
     margin: 11px auto;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
 }
 
-/* About Section */
+/* About Section */ /*Done*/
 #about{
-    border: 2px solid brown;
-    margin: 33px auto;
+    background: #2b2b2b;
+    padding: 3%;
     overflow: auto;
 }
 
-#about > div{
+#about h2,h3{
+    color: #fff;;
+}
+
+.About{
     float: right;
-    width: 60%;
-    border: 2px solid rgb(47, 255, 255);
-    margin: 15px 23px;
+    width: 50%;
+    color: #797878;
+    margin: 6px 23px;
+    font-size: 1rem;
     padding: 2px 10px;
     line-height: 2rem;
+}
+
+#about div{
+    padding: 4px;
+}
+
+
+#image{
+    float: left;
+    overflow: auto;
+    display: inline-block;
+    margin: 2px 5%;
+    width: 30%;
+    height: 10%;
+    padding: 5%;
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Skills Section */
@@ -84,30 +125,74 @@
     display: inline-block;
     width: 25%;
     border: 2px solid greenyellow;
-    margin: 5px 25px;
-    font-size: 2rem;
+    margin: 5px 10px;
+    font-size: 3rem;
 }
 
 #skills ul{
-    width: 66%;
+    width: 60%;
     float: right;
     list-style: none;
-    border: 2px solid brown;
-}
-
-#skills ul li{
-    padding: 13px 0px;
+    /* border: 2px solid brown; */
 }
 
 #skills ul li progress{
     width: 50%;
 }
 
+.Skills{
+    /* border: 2px solid red; */
+    font-size: 1.6rem;
+}
+
+.Skills img{
+    padding: 3% 2% 0%;
+    width: 3%;
+    height: 3%;
+}
 /* Projects Section */
 #projects{
     border: 2px solid gold;
-    padding: 23px 34px;
-    margin: 23px auto;
+    margin: 5% auto;
+}
+
+#projects h2{
+    font-size: 3rem;
+    border: 2px solid red;
+    padding-left: 25px;
+}
+
+#projects div{
+    border: 2px solid blue;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 2% 4%;
+    justify-items: center;
+}
+
+#projects div h2{
+    border: 2px solid hotpink;
+}
+
+#projects img{
+    width: 100%;
+    height: 60%;
+    border: 2px solid black;
+}  
+
+#projects a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    overflow: auto;
+}
+
+#projects p{
+    border: 2px solid green;
+    padding: 4px 23px;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 /* Contact Section */
@@ -115,8 +200,16 @@
     border: 2px solid blue;
     padding: 23px 34px;
 }
+#contact p{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+}
 
 #contact img{
+    width: 5%;
+    height: 5%;
     border: 2px solid rgb(182, 142, 13);
-    margin: 23px 45px;
+    margin: 2% 5%;
+    opacity: 0.7;
 }
