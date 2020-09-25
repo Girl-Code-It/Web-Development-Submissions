@@ -3,12 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Baloo Tamma 2', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Navigation Bar */ /*Done*/
 #navbar{
-    background-color: rgb(36 72 132 / 84%);
+    background-color: rgb(0 27 71);
     overflow: auto;
     top: 0px;
     position: sticky;
@@ -114,34 +114,27 @@
     border-radius: 50%;
 }
 
-/* Skills Section */
+/* Skills Section */ /*Done*/
 #skills{
-    border: 2px solid green;
     padding: 23px 34px;
     overflow: auto;
-}
-
-#skills h2{
-    display: inline-block;
-    width: 25%;
-    border: 2px solid greenyellow;
-    margin: 5px 10px;
-    font-size: 3rem;
 }
 
 #skills ul{
     width: 60%;
     float: right;
     list-style: none;
-    /* border: 2px solid brown; */
 }
 
 #skills ul li progress{
     width: 50%;
 }
 
+#skills ul li:hover{
+    background-color: whitesmoke;
+}
+
 .Skills{
-    /* border: 2px solid red; */
     font-size: 1.6rem;
 }
 
@@ -150,20 +143,10 @@
     width: 3%;
     height: 3%;
 }
+
 /* Projects Section */
-#projects{
-    border: 2px solid gold;
-    margin: 5% auto;
-}
-
-#projects h2{
-    font-size: 3rem;
-    border: 2px solid red;
-    padding-left: 25px;
-}
-
 #projects div{
-    border: 2px solid blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 40%;
     height: 100%;
     display: inline-block;
@@ -172,14 +155,15 @@
     justify-items: center;
 }
 
-#projects div h2{
-    border: 2px solid hotpink;
+#projects div h3{
+    display: inline-block;
+    margin-left: 22%;
+    color: #0f9095;
 }
 
 #projects img{
     width: 100%;
     height: 60%;
-    border: 2px solid black;
 }  
 
 #projects a{
@@ -189,27 +173,32 @@
 }
 
 #projects p{
-    border: 2px solid green;
     padding: 4px 23px;
     text-align: center;
-    font-size: 1.3rem;
 }
 
 /* Contact Section */
 #contact{
-    border: 2px solid blue;
-    padding: 23px 34px;
-}
-#contact p{
-    border: 2px solid red;
-    width: 50%;
-    margin: auto;
+    padding: 0px 20%;
+    background-color: rgb(166, 180, 194);
 }
 
 #contact img{
-    width: 5%;
-    height: 5%;
-    border: 2px solid rgb(182, 142, 13);
-    margin: 2% 5%;
+    width: 3%;
+    height: 3%;
+    margin: 2% 6%;
     opacity: 0.7;
+}
+
+#contact img:hover{
+    opacity: 1;
+}
+
+/* Utility Classes */
+.heading{
+    display: inline-block;
+    border-bottom: 4px solid skyblue;
+    width: auto;
+    margin: 3px 23px;
+    font-size: 40px;
 }
