@@ -75,7 +75,7 @@
 /* About Section */ /*Done*/
 #about{
     background: #2b2b2b;
-    padding: 3%;
+    padding-top: 7%;
     overflow: auto;
 }
 
@@ -116,7 +116,7 @@
 
 /* Skills Section */ /*Done*/
 #skills{
-    padding: 23px 34px;
+    padding: 5% 4%;
     overflow: auto;
 }
 
@@ -145,6 +145,10 @@
 }
 
 /* Projects Section */
+#projects{
+    padding: 5% 4%;
+}
+
 #projects div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 40%;
@@ -179,19 +183,22 @@
 
 /* Contact Section */
 #contact{
-    padding: 0px 20%;
+    padding: 0% 15%;
+    height: 10%;
     background-color: rgb(166, 180, 194);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #contact img{
     width: 3%;
     height: 3%;
-    margin: 2% 6%;
+    margin: 1% 6% 0%;
     opacity: 0.7;
 }
 
 #contact img:hover{
     opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Utility Classes */
