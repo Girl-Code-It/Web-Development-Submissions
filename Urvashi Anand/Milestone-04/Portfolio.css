@@ -1,0 +1,218 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(68, 63, 63);
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: black;
+    opacity: 0.2;
+    display: block;
+    position: sticky;
+    margin: -17px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin-left: 650px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 31px 33px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    border: black;
+    cursor: pointer;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+
+p{
+    color: white;
+    margin-left: 46px;
+    font-size: 23px;
+    padding-top: -17px;
+}
+
+.Logo {
+    top: 39px;
+    left: 60px;
+    margin-right: 290px;
+    position: absolute;
+    display: inline-block;
+    color: rgb(244, 245, 245);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    z-index: +1;
+    font-size: medium;
+    font-size: 29px;
+    padding: 6px;
+    margin: -13px;
+}
+
+#pic{
+    height: 346px;
+    width: 274px;
+    border-radius: 250px;
+    margin-bottom: 15px;
+}
+
+/* About */
+#About{
+    background-color: black;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    margin: -21px;
+    flex-direction: column;
+    color: grey;
+    display: flex;
+}
+
+.heading{
+    font-size: 50px;
+    z-index: 1;
+    display: block;
+}
+
+#About p{
+    align-items: center;
+    justify-content: center;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #c3bbbb;
+    margin-bottom: 13px;
+    display: flex;
+}
+
+/* Education */
+#education{
+    background-color: #c5bcbc;
+    margin-bottom: -21px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Projects */
+#gym{
+    height: 250px;
+    width: 100%;
+}
+
+.align{
+    background-color: gray;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects{
+    background-color: gray;
+    margin-top: 0px;
+    margin-left: -9px;
+    margin-right: -18px;
+    padding-top: 1px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 72px;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    margin: 22px;
+}
+
+.icon:hover{
+    opacity: 0.5;
+    z-index: 1;
+}
+#image{
+    background-color:#696262;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    background-color: #696262;
+    margin-top: 0px;
+    margin-left: -9px;
+    margin-right: -18px;
+    padding: 1px;
+}
+
+#contact-heading{
+    display: block;
+}
+
+.font{
+    font-size:13px;
+    color: #6d6d5e;
+}
+
+#skills{
+    background-color: #f9f5f5;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 34px;
+}
+
+.mid{
+    font-size: 45px;
+    margin-left: 42%;
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+
+.midi{
+    font-size: 33px;
+    text-align: center;
+    color: rgb(12, 78, 192);
+}
+
+.anchor{
+    text-decoration: none;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgb(12 12 12 / 20%), 0 6px 20px 0 rgb(19 18 18 / 19%);
+}
+
+.para{
+    font-size: 13px;
+}
+
+.diff{
+    color: brown;
+}
+
+progress
+{
+    width: 300px;
+    height: 23px;
+}
