@@ -1,219 +1,233 @@
-body{
-    overflow-x: hidden;
-    background-color: rgb(68, 63, 63);
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 
-/* Navigation bar */
-.navbar {
+body{
     background-color: black;
-    opacity: 0.2;
-    display: block;
+    overflow-x: hidden;
+}
+/* Navigation bar  (sticky bnana h) */
+.navbar {
+    background-color: rgb(68, 63, 63);
+    overflow: hidden;
+    top: 0;
+    left: 0;
     position: sticky;
-    margin: -17px;
+    padding-top: 1%;
 }
 
 .navbar ul {
-    overflow: auto;
-    margin-left: 650px;
+    float: right;
+    width: 40%;
 }
 
 .navbar li {
-    float: left;
+    display: inline-block;
     list-style: none;
-    margin: 31px 33px;
+    margin: 2% 2%;
 }
 
 .navbar li a {
-    padding: 3px 3px;
+    padding: 6px 5px;
     text-decoration: none;
-    color: white;
+    color: rgb(231, 226, 226);
     border-radius: 12px;
     border: black;
-    cursor: pointer;
 }
 
 .navbar li a:hover {
-    color: black;
-    background-color: white;
-}
-
-p{
     color: white;
-    margin-left: 46px;
-    font-size: 23px;
-    padding-top: -17px;
 }
 
-.Logo {
-    top: 39px;
-    left: 60px;
-    margin-right: 290px;
-    position: absolute;
+#Logo {
     display: inline-block;
-    color: rgb(244, 245, 245);
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    z-index: +1;
-    font-size: medium;
-    font-size: 29px;
-    padding: 6px;
-    margin: -13px;
+    width: 32%;
+    font-size: 1.5rem;
 }
 
-#pic{
-    height: 346px;
-    width: 274px;
-    border-radius: 250px;
-    margin-bottom: 15px;
+#Logo a{
+    text-decoration: none;
+    color: rgb(244, 245, 245);
+    padding: 16px 23px;
+    margin-left: 8%;
+}
+
+/* Home Done */
+#Home{
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    padding: 5%;
+}
+
+#Home img{
+    float: right;
+    height: 22%;
+    width: 22%;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+#content{
+    width: 50%;
+    text-align: center;
+    margin: 66px 3px 2px 60px;
+}
+
+#content p{
+    color: white;
+    line-height: 2rem;
+    margin: 1% auto;
+    width: 80%;
+    padding: 3%;
+    font-size: 1.2rem;
+}
+
+#content h1{
+    color: white;
+    font-size: 6rem;
 }
 
 /* About */
 #About{
-    background-color: black;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
-    margin: -21px;
-    flex-direction: column;
-    color: grey;
-    display: flex;
+    background: #2b2b2b;
+    overflow: auto; 
 }
 
-.heading{
-    font-size: 50px;
-    z-index: 1;
-    display: block;
+#About h2,h3{
+    color: #fff;
+    margin-bottom: 1%;
 }
 
-#About p{
-    align-items: center;
-    justify-content: center;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    color: #c3bbbb;
-    margin-bottom: 13px;
-    display: flex;
+.about{
+    width: 50%;
+    color: #797878;
+    margin: 1% 0% 1% 8%;
+    line-height: 2rem;
+    border: 8px solid #38b2b5;
+    padding: 1% 2%;
 }
 
-/* Education */
-#education{
-    background-color: #c5bcbc;
-    margin-bottom: -21px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-right: -18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* Skills */
+#skills{
+    background-color: rgb(244, 245, 245);
+    overflow: auto;
+    padding: 4.8% 2%;
+}
+
+#skills ul{
+    width: 45%;
+    float: right;
+    list-style: none;
+    padding: 1% 3%;
+}
+
+.Skills{
+    line-height: 1.7rem;
+    align-items: left;
+    font-size: 1.3rem;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+#skills li:hover{
+    background-color: rgba(20, 138, 138, 0.041);
+}
+
+#skills h1{
+    font-size: 4rem;
+    text-underline-position: below;
+    display: inline-block;
+    width: 13%;
+    margin: 2% 0% 0% 6%;
+}
+
+.Skills img{
+    width: 4%;
+    height: 4%;
+    padding: 1% 2% 0%;
+}
+
+
+progress{
+    width: 20rem;
+    height: 1.5rem;
 }
 
 /* Projects */
-#gym{
-    height: 250px;
-    width: 100%;
-}
-
-.align{
-    background-color: gray;
-    margin: 0px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-right: -18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #projects{
-    background-color: gray;
-    margin-top: 0px;
-    margin-left: -9px;
-    margin-right: -18px;
-    padding-top: 1px;
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-bottom: 72px;
+    padding: 3% 2%;
+    /* overflow: auto; */
+    background: #cbd6d2;
 }
 
-.icon{
-    height: 45px;
-    width: 45px;
-    margin: 22px;
+#projects div{
+    box-shadow: 0 4px 8px 0 rgb(68, 63, 63), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    height: 69vh;
+    display: inline-block;
+    /* overflow: hidden; */
+    margin: 2% 4%;
+    justify-items: center;
 }
 
-.icon:hover{
-    opacity: 0.5;
-    z-index: 1;
-}
-#image{
-    background-color:#696262;
-    margin: 0px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-right: -18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#projects h2{
+    width: 13%;
+    display: inline-block;
+    margin: 0% 3% 0% 41%;
+    font-size: 3.5rem;
 }
 
-#contact{
-    background-color: #696262;
-    margin-top: 0px;
-    margin-left: -9px;
-    margin-right: -18px;
-    padding: 1px;
+#projects div h3{
+    display: inline-block;
+    margin-left: 22%;
+    color: #1830a9d9;
+    margin: auto 16%;
+    font-size: 1.9rem;
 }
 
-#contact-heading{
-    display: block;
-}
+#projects img{
+    width: 100%;
+    height: 60%;
+}  
 
-.font{
-    font-size:13px;
-    color: #6d6d5e;
-}
-
-#skills{
-    background-color: #f9f5f5;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-right: -18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 34px;
-}
-
-.mid{
-    font-size: 45px;
-    margin-left: 42%;
-    margin-top: 42px;
-    margin-bottom: 10px;
-}
-
-.midi{
-    font-size: 33px;
-    text-align: center;
-    color: rgb(12, 78, 192);
-}
-
-.anchor{
+#projects a{
     text-decoration: none;
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgb(12 12 12 / 20%), 0 6px 20px 0 rgb(19 18 18 / 19%);
+    font-size: 1.8rem;
+    /* overflow: auto; */
 }
 
-.para{
-    font-size: 13px;
+#projects p{
+    padding: 4px 22px;
+    text-align: center;
+    margin: 4%;
 }
 
-.diff{
-    color: brown;
+/* Contact Section */
+#contact{
+    padding: 1% 15%;
+    height: 10%;
+    background-color: #797878;
 }
 
-progress
-{
-    width: 300px;
-    height: 23px;
+#contact img{
+    width: 3%;
+    height: 8%;
+    margin: 1% 6% 0%;
+    opacity: 0.8;
+}
+
+#contact img:hover{
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.2), 0 6px 20px 0 rgba(17, 17, 17, 0.2);
+}
+
+#copyright{
+    color: rgb(231, 226, 226);
+    padding: 2% 1% 0% 1%;
+    margin-left: 29%;
 }

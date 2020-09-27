@@ -11,11 +11,11 @@
 
 <body>
     <header>
-        <div class="Logo">Urvashi Anand</div>
         <nav class="navbar">
+            <div id="Logo"><a href="#Home">Urvashi Anand</a></div>
             <ul>
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
@@ -23,91 +23,86 @@
         </nav>
     </header>
 
-    <div id="About">
-        <h1 class="heading">About Me</h1>
-        <img id="pic" src="Images/pic.jpg" alt="Urvashi Anand">
-        <p class="myself">I am Urvashi Anand</p>
-        <p class="myself">I am second year undergrad student of Maharaja Agrasen Institute of Technology I am currently
-            learning
-            Web-Development and diving deep into data structures and algorithmns. I am Basic C++ and Web-Develeopment
-            Mentee at Girl Code It(GCI)</p>
-    </div>
-
-    <div id="education">
-        <h1 class="heading">Education</h1>
-        <div class="education-para">
-            <p class="diff">Maharaja Agrasen Institute Of Technology</p>
-            <p class="font">BTECH In Information Technology</p>
-            <p class="font">Mentee At Girl Code It</p>
-
-            <p class="diff">Rajkiya Pratibha Vikas Vidyalaya</p>
-            <p class="font">Class XII</p>
-            <p class="font">PCM</p>
-
-            <p class="diff">Sarvodaya Kanya Vidyalaya</p>
-            <p class="font">Class X</p>
-            <p class="font"></p>
+    <section id="Home">
+        <div>
+            <img title="Urvashi Anand" src="Images/pic.jpg" alt="Urvashi Anand">
+            <div id="content">
+                <p>Hi, I am</p>
+                <h1>Urvashi Anand</h1>
+                <p>I am a Competitive Coder and Frontend Web Developer. Girl Code It aka GCI is a group of people who firmly
+                    believe that "Knowledge grows when shared" and is eager to build a healthy coding culture among young
+                    coders. Being an avid coder, I want to contribute my best to the society!</p>
+            </div>
         </div>
-    </div>
+    </section>
+    
+    <section id="About">
+        <div class="about">
+            <h2>About Me</h2>
+            <p>I am currently a second year student at Maharaja Agrasen Institute of Technology
+            and pursuing my B.Tech in Information Technology. I am a Competitive Programmer and Frontend Web Developer.</p>
+        </div>
+        <div class="about">
+            <h2>Education</h2>
+            <div>
+                <h3>Maharaja Agrasen Institute Of Technology</h3>
+                <p>Information Technology <span>•</span> Aug 2023</p>
+                <p>Mentee At Girl Code It</p>
+            </div>
+            <div>
+                <h3>Rajkiya Pratibha Vikas Vidhyalaya</h3>
+                <p>Physics, Chemistry and Mathematics <span>•</span> March 2019 <br>Secured 95% In PCM</p>
+            </div>
+            <div>
+                <h3>Sarvodaya Kanya Vidyalaya</h3>
+                <p>Science and Mathematics <span>•</span> March 2017 <br>Secured 9.4 CGPA</p>
+            </div>
+        </div>
+    </section>
 
-    <div id="skills">
-        <h1 class="heading">Skills</h1>
+    <section id="skills">
+        <h1>Skills</h1>
         <ul>
-            <!-- yha abhi image daalni h icons me -->
-            <li>C++ <br><progress value="85" , min="0" , max="100"></progress></li>
-            <li>C <br><progress value="90" , min="0" , max="100"></progress></li>
-            <li>CSS3 <br><progress value="70" , min="0" , max="100"></progress></li>
-            <li>HTML5 <br><progress value="80" , min="0" , max="100"></progress></li>
+            <li class="Skills"><img src="Images/C.PNG" alt="">C <br> <progress min="0" max="100" value="90"></progress></li>
+            <li class="Skills"><img src="Images/C++.PNG" alt="">C++ <br> <progress min="0" max="100" value="75"></progress></li>
+            <li class="Skills"><img src="Images/html5.PNG" alt="">HTML5 <br> <progress min="0" max="100" value="70"></progress></li>
+            <li class="Skills"><img src="Images/CSS3.PNG" alt="">CSS3 <br> <progress min="0" max="100" value="40"></progress></li>
+            <li class="Skills"><img src="Images/ds.PNG" alt="">Data Structures <br> <progress min="0" max="100" value="40"></progress></li>
+            <li class="Skills"><img src="Images/compP.PNG" alt="">Competitive Programming <br> <progress min="0" max="100" value="40"></progress></li>
+
         </ul>
-    </div>
+    </section>
 
-    <div id="projects">
-        <h1 class="heading mid">My Projects</h1>
-        <div class="align">
-            <a class="anchor"
-                href="https://github.com/urvashi-code1255/Web-Development_Bootcamp/tree/master/Gym_Website "
-                target="_blank"><img id="gym" src="Images/website1.PNG" alt="Gym Website">
-                <h2 class="midi">Gym Website</h2>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facilis sed
-                    exercitationem, inventore sunt esse deleniti facere quo, velit molestias, dolorum delectus porro.
-                    Inventore, maiores aut exercitationem illum autem in ipsa neque quae deserunt quasi animi earum,
-                    placeat error, quo explicabo ea ex non. Numquam.</p>
-            </a>
-            <a class="anchor" href="https://github.com/urvashi-code1255/Online-Food-Delivery-Website"
-                target="_blank"><img id="gym" src="Images/website2.PNG" alt="Gym Website">
-                <h2 class="midi">Online Food Delivery Website</h2>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facilis sed
-                    exercitationem, inventore sunt esse deleniti facere quo, velit molestias, dolorum delectus porro.
-                    Inventore, maiores aut exercitationem illum autem in ipsa neque quae deserunt quasi animi earum,
-                    placeat error, quo explicabo ea ex non. Numquam.</p>
-            </a>
+    <section id="projects">
+        <h2 class="heading">Projects</h2> <br>
+        <div>
+            <a href="https://github.com/urvashi-code1255/Web-Development_Bootcamp/tree/master/Gym_Website" target="_blank"><img src="Images/website1.PNG" alt="Online-Meal-Delivery-Website"><h3>Fitness Gym Website</h3></a>
+            <p>
+                Lorem ipsum dolor sit amerepellat minima nobis? Est corrupti perferendis eveniet molestiae, repudiandae quia! Nobis cum praesentium ut magnam quos dicta?
+            </p>
         </div>
-    </div>
-
-    <div id="contact">
-        <h2 class="mid">Contact Me</h2>
-        <div id="image">
-            <a href="https://www.linkedin.com/in/urvashi-anand-6bb449197" target="_blank">
-                <img alt="Linkedin" src="https://image.flaticon.com/icons/png/512/174/174857.png" class="icon" />
-
-                <a href="https://github.com/urvashi-code1255" target="_blank">
-                    <img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" class="icon" />
-
-                    <a href="https://www.hackerrank.com/urvashianand0906" target="_blank">
-                        <img alt="Hackerrank"
-                            src="https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg"
-                            class="icon" />
-                        <a href="https://leetcode.com/urvashi_anand/" target="_blank">
-                            <img alt="Leetcode"
-                                src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-                                class="icon" />
-
-                            <a href="https://www.hackerearth.com/@urvashi135" target="_blank">
-                                <img alt="Hackerearth" class="icon"
-                                    src="https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png" />
+        <div>
+            <a href="https://github.com/urvashi-code1255/Online-Food-Delivery-Website"target="_blank"><img src="Images/website2.PNG"  alt="Gym-website"><h3>Meal Delivery Website</h3></a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur lat minima nobis? Est c molestiae, Nobis facere earum rem cum praesentium ut magnam quos dicta?
+            </p>
         </div>
+    </section>
 
-    </div>
+    <footer id="contact">
+        <p>
+            <a href="mailto:urvashianand0906@gmail.com"><img src="Images/gmail.PNG" alt=""></a>
+            <a href="https://www.linkedin.com/in/urvashi-anand-6bb449197
+            "><img alt="Linkedin" src="Images/linkedin.PNG" /></a>
+            <a href="https://github.com/urvashi-code1255"><img alt="Github" src="Images/github.PNG" /></a>
+            <a href="https://www.hackerrank.com/urvashianand0906
+            "><img alt="Hackerrank" src="Images/hackerrank.PNG" /></a>
+            <a href="https://leetcode.com/urvashi_anand/"><img alt="Leetcode" src="Images/leetcode.PNG" /></a>
+            <a href="https://www.hackerearth.com/@urvashi135"><img alt="Hackerearth" src="Images/hackerearth.PNG" /></a>
+            <p id= "copyright">&copy; Urvashi Anand. All Rights Reserved </p>
+           </p>
+    </footer>
+    <br>
 </body>
 
 </html>
