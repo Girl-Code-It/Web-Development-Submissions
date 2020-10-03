@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>My Score keeper</title>
+        <link rel='stylesheet' type='text/css' href='./style.css'>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+        <div class='content text-center'>
+           <h1>My Score Keeper</h1>
+           <h2>Score:
+                <span id='score1'>0</span> to <span id='score2'>0</span>
+           </h2>
+           <button type='submit' class='btn btn-secondary' id='btn1'>Player 1</button>
+           <button type='submit' class='btn btn-secondary' id='btn2'>Player 2</button>
+           <button class='reset btn btn-danger'>Reset</button>
+           <br>
+           <div class='form-group'>
+                <input type='number' name='limit' value='5' class='form-control'>
+           </div>
+           <h2>The winner is: <span id='winner'></span></h2>
+        </div>
+
+        <script type='text/javascript' src='./script.js'></script>
+    </body>
+</html>

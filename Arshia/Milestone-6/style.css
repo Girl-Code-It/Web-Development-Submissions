@@ -1,0 +1,96 @@
+html , body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+.navbar-brand{
+    color:#e6bd0a !important;
+    font-size:30px;
+    font-family:'Poppins',serif;
+    font-weight: 700;
+}
+nav button{
+    background-color:transparent;
+}
+nav ul li a{
+    color:teal !important;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color:lightgrey;
+    border-bottom: 1px solid teal;
+}
+header{
+    background-image: url(./img/Header.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+.text{
+    padding:7% 0;
+    color:teal;
+}
+.text-desc{
+    padding:2% 0;
+}
+.buy{
+    background-color: palevioletred;
+    color:white;
+    margin-right: 1%;
+}
+.know{
+    background-color: white;
+    color:palevioletred;
+}
+.sec2{
+    background-image: url(./img/section2.jpg);
+    background-color: #B9B9B9;
+    background-size: cover; 
+    background-attachment: fixed;
+    margin-top:2%;
+    color:white;
+}
+.sec2-cont{
+    padding:4% 0;
+}
+.sec2 button{
+    background-color: rgb(21, 199, 199);
+}
+.sec3{
+    margin-top: 2%;
+}
+.fa{
+    padding-top:2%;
+    color:darkcyan;
+}
+.fas{
+    padding-top:2%;
+    color:darkcyan;
+}
+.packet{
+    padding-left:2%;
+}
+.sec4{
+    background-color: darkgrey;
+    margin-top:2%;
+    padding:0 2.5%;
+}
+.sec4 h4{
+    color:teal;
+    cursor: pointer;
+}
+.sec4 img{
+    padding:3% 0;
+}
+ul{
+   list-style: no
+}
+.sec5 ul li{
+    color:teal !important;
+}
+/*.sec5 ul li:nth-child(2){
+    padding: 0 2%;
+}*/
+.sec5 h5{
+    color:#e6bd0a;
+}
