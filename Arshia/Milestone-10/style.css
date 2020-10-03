@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    margin-top:15%;
+    color:yellow;
+}
+.form-group{
+    width:20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.green{
+    color:green;
+}

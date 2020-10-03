@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+.wrapper{
+    background-color: white;
+    opacity:0.8;
+    width:20%;
+    height:auto;
+    margin-left:40%;
+    margin-top:10%;
+    padding:0.5% 0.5%;
+    box-shadow: 10px 10px 8px 10px #c0b9b9;
+}
+h2{
+    text-align:center;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    border-bottom: 2px solid lightgrey;
+    border-bottom-width: 5%;
+    padding-bottom: 2.5%;
+}
+input{
+    margin-top: 5%;
+}
+input[type=submit]{
+    width:30%;
+    height:4%;
+}
+input[type=text]{
+    background-color:turquoise;
+    height:4%;
+    width: 60%;
+    border:none;
+}
+button{
+    margin-top:3%;
+    margin-left:2%;
+    padding:2%;
+    width:auto;
+    height:4%;
+}
