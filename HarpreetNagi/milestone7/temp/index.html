@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+<h1>TEMPERATURE CONVERTOR</h1>
+
+
+    <input type="number" id="input" placeholder="Enter Temp">
+    <button onclick="press()" >CLICK</button>
+    <h1>RESULT is <span class="main"></span> </h1>
+
+
+
+    <h2>HUMAN AGE TO DOG AGE</h2>
+
+
+    <input type="number" id="input1" placeholder="Enter Temp">
+    <button onclick="press1()" >CLICK</button>
+    <h1>RESULT is <span class="main1"></span> </h1>
+
+
+    <script>
+        function press (){
+        document.querySelector("h1").classList.toggle("dark");
+        const temp = document.getElementById("input");
+        var result = ( +(temp.value) + 273);
+        var update  = document.getElementsByClassName("main")[0];
+            update.innerHTML = result;
+            
+    }
+
+    function press1 (){
+        document.querySelector("h2").classList.toggle("dark");
+        const temp = document.getElementById("input1");
+        var result = ( +(temp.value) + 8);
+        var update  = document.getElementsByClassName("main1")[0];
+            update.innerHTML = result;
+            
+    }   
+
+    </script>
+</body>
+</html>
