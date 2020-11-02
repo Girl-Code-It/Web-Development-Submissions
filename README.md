@@ -1,3 +1,3 @@
 # Web-Development-Submissions
 
-This repository contains web development submission
+This repository contains web development submissions
