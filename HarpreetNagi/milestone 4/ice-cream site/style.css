@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Great+Vibes&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+}
+
+
+
+
+.section h1{
+    text-align:center;
+    z-index: 1;
+    margin: 15px;
+    font-family: 'Charmonman', cursive;
+    color: rgb(112, 60, 22);
+    font-size: 5em;
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-delay: 2s;
+
+}
+
+
+
+
+@keyframes animate {
+        from { color: rgb(112, 60, 22);}
+        to {color: rgb(170, 44, 65);}
+        
+        
+      }
+
+   
+
+
+
+.play{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.color{
+    background-color:pink;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+/* top bar start */
+.top-bar{
+    height: 160px;
+    width: 100%;
+    
+  
+    position: fixed;
+    top: 0px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.top-bar .logo{
+    padding-top: 20px;
+  
+}
+
+.top-bar .logo a{
+    color: rgb(112, 60, 22);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+   
+}
+
+.top-bar .menu{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+
+}
+
+.top-bar .menu a{
+    color: #fff;
+    font-size: 60px;
+}
+.top-bar .menu a:hover{
+    
+   
+font-size: 65px;
+color: rgb(112, 60, 22);
+
+
+}
+
+
+.fas:hover{
+    transform: rotate3d(0, 10, 0, 30deg);
+    transition: 0.5s ;
+    
+}
+.closebtn{
+    color: #fff;
+    
+
+}
+.closebtn:hover{
+    transform: rotate3d(0, 10, 0, 30deg);
+    transition: 0.2s;
+    
+}
+
+.overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%; /* agar upr se lana ha to width 100 hieht 0 and in js use height and vice versa*/
+    height: 0vh;
+    background-color: rgba(255, 255, 255, 0.719);
+    overflow-x:hidden;
+    z-index:5;
+    transition:1s;
+
+}
+
+.fas{
+    color: rgb(112, 60, 22);
+}
+
+.overlay-content{
+    position: relative;
+    top:22%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content a{
+    padding: 10px;
+    color: rgb(112, 60, 22);
+    font-size: 40px;
+    font-family: 'Charmonman', cursive;
+    text-decoration: none;
+    display: block;
+}
+
+
+.overlay a:hover{
+    
+    color: white;
+    text-decoration: none;
+   
+    transform: rotate3d(0, 10, 0, 45deg);
+    transition: 0.5s;
+    
+   
+}
+
+
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 100px;
+    color: rgb(112, 60, 22);
+    text-decoration: none;
+}
+
+/* top  bar end */
+
+
+.row .text{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+    width: 10%;
+    padding-left: 2.5%;
+    color: bisque;
+    z-index: 0;
+}
+
+
+
+.row {
+    
+    width: 100%;
+    text-align: center;
+    height: 81vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+
+
+.row  h3{
+    font-family: 'Great Vibes', cursive;
+    padding: 5% 0;
+
+}
+
+
+.row h2{
+    font-family: 'Charmonman', cursive;
+    padding: 5% 0;
+}
+
+
+.row  .flavour-text{
+    padding: 13% 13% 0 13%;
+    background-color:bisque;
+   
+ 
+}
+
+
+
+.middle{
+    padding: 5%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(112, 60, 22);
+    
+
+}
+
+
+
+.third{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ice-cream-all-1588878920.jpg?crop=1.00xw:0.620xh;0,0.184xh&resize=980:*);
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+    
+    text-align: center;
+    padding: 20% 0;
+   
+}
+
+.third h3{
+    color: white;
+}
+
+.third h1{
+    font-size:6.5em;
+    color: white;
+}
+
+
+
+.fourth{
+    padding: 5%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(112, 60, 22);
+
+}
+
+
+
+
+
+
+
+
+
+.fifth{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://www.bristolfarms.com/blog/wp-content/uploads/2017/08/ThinkstockPhotos-687685942.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+    
+    text-align: center;
+    padding: 20% 0;
+   
+}
+
+
+
+.fifth h3{
+    color: white;
+}
+
+.fifth h1{
+    font-size:6.5em;
+    color: white;
+}
+
+
+.colmn{
+    height: 81vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+
+
+
+.fourtn-img{
+    height: 81vh;
+    width: 103%;
+    
+    padding-left: 0;
+    margin-left:0;
+    background-color: bisque;
+}
+
+
+.text1{
+    position: absolute;
+    top: 2;
+    left: 0;
+    width: 15%;
+    height: 80%;
+    opacity: 0.3;
+}
+
+
+
+.sixth{
+    background-image: url(19604595.jpg);
+    width: 100%;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+
+ 
+   
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+    
+    text-align: center;
+
+}
+
+.sixth img{
+    width: 100%;
+    height:90%;
+    padding: 10% 10%;
+
+}
+
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-color:white;
+    padding: 10% 0 0 0;
+    color: rgb(112, 60, 22);
+}
+
+
+
+
+
+.butn{
+    width: 80%;
+    background-color: rgb(112, 60, 22);
+    color: white;
+    margin : 5% 0 0 0;
+}
+
+
+
+
+
+
+
+#email-box{
+    width: 80%;
+    border: 2px solid rgb(112,60,22);
+    color: rgb(112, 60, 22);
+    
+
+}
+
+
+#email-box::placeholder{
+    color: rgb(112, 60, 22);
+
+}
+
+
+.row{
+    height: auto;
+}
+
+
+
+.end-row{
+    margin: 5% 0;
+}
+
+.end-col{
+    
+}
+
+.end-col .icon{
+    background-color: rgb(112, 60, 22);
+    color: white;
+    border-radius:100%;
+    height: 30%;
+    width: 8%;
+    margin: 2.5%;
+   
+}
+
+hr.new5 {
+    border: 5px solid rgb(112, 60, 22);
+    border-radius: 5px;
+  }
+
+
+
+
+
+@media screen and (max-width:600px)
+{
+
+
+
+    body{
+        width: 100%;
+    }
+
+    .row .text{
+        font-size:0.5em;
+    }
+
+    .row .text1{
+        width: 10%;
+        height:20%;
+    }
+
+
+
+    .section .type{
+        font-size:1em;
+    }
+
+    .section h1{
+        font-size:2em;
+    }
+
+
+    .section  .color{
+        width: 0%;
+        height: 0%;
+    }
+   
+
+
+    .choco-img{
+        width:auto;
+    }
+
+    .row{
+        width: auto;
+      
+    }
+
+
+    .row .flavour-text{
+        padding: 5% 0 5% 0;
+    }
+
+    
+
+
+
+      .item{
+        font-size:1em;
+    }
+    .item2{
+        font-size:1em;
+    }
+
+
+    .end-col .icon{
+        background-color: white;
+        color:rgb(112, 60, 22);
+        
+        margin: 5%;
+        font-size: 20px;
+       
+    }
+
+
+
+
+    .top-bar .menu a{
+       
+        font-size: 40px;
+    }
+    .top-bar .menu a:hover{
+       
+        font-size: 40px;
+    }
+
+  
+
+ 
+    
+    
+   
+
+
+
+    .row .text{
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.2em;
+        width: 10%;
+        padding-left: 2.5%;
+        color: rgb(112, 60, 22);
+        z-index: 1;
+    }
+
+
+
+    .choco-img{
+        width: 103%;
+    }
+
+
+
+    
+
+
+    
+
+
+    .flavour-text p{
+        padding: 0 5%;
+       
+    }
+
+    body{
+        width: 100%;
+    }
+
+
+    .fifth , .third{
+        width: 103%;
+    }
+
+
+    
+
+
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

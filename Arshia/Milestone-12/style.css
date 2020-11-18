@@ -1,0 +1,32 @@
+body{
+    background-image: url(./Bg.jpg);
+    background-size: cover;
+    color:white;
+}
+.keys{
+    display:flex;
+    margin-top:8%;
+    /*margin-left:38%;*/
+    justify-content: center;
+}
+.key{
+    border: 2px solid white;
+    display:flex;
+    flex-direction: column;
+    padding:0.5%;
+    width:100px;
+    height:60px;
+    text-align: center;
+    margin-left:1.5%;
+    transition: all 0.07s ;
+}
+.playing-now{
+    border:2px solid yellow;
+    box-shadow:0.7px 1.2px 2px yellow;
+    transform:scale(1.15);
+    color:yellow;
+    
+}
+kbd{
+    font-size: 22px;
+}

@@ -1,0 +1,61 @@
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+.fa-code{
+    color:orangered;
+}
+.fa-bold{
+    color:purple;
+}
+.fa-magic{
+    color:rgba(13, 240, 43, 0.897);
+}
+.social .fa{
+    padding:3%;
+}
+.social .fa-facebook-official{
+    color:darkblue;
+}
+.fa-google-plus{
+    color:rgba(255, 0, 0, 0.808)
+}
+.fa-instagram{
+    color:rgb(226, 52, 87);
+}
+.fa-youtube-play{
+    color:red;
+}
+footer{
+    background-color: #333333;
+    color:white;
+}
+hr{
+    border:2px solid black;
+    width:60%;
+}
+hr.light{
+    border-top:2px solid #d5d5d5;
+    width:75%;
+}
+@media screen and (max-width:380px){
+    .carousel-inner img{
+        height:30%;
+    }
+    .carousel-caption h1{
+        font-size:27px;
+    }
+    .carousel-caption h3{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:550px){
+    .carousel-inner img{
+        height:30%;
+    }
+    .carousel-caption h1{
+        font-size:27px;
+    }
+    .carousel-caption h3{
+        font-size:20px;
+    }
+}

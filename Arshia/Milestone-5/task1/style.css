@@ -1,0 +1,131 @@
+
+.container-fluid .col-md-12{
+    background-image: url(./images/felix-mittermeier-JYx2nrMrGZo-unsplash.jpg);
+    position:relative;
+    height:100%;
+    width:auto;
+}
+.des{
+    text-align:center;
+    color:white;
+    font-size:150%;
+    position:absolute;
+    top:50%;
+    left:47%;
+}
+.row{
+    width:100%;
+}
+.header{
+    height:400px;
+    width:100%;
+    padding:30px 0 30px;
+    margin: 12% 0 8% 0;
+    background-image: url(./images/daniele-levis-pelusi-NXt2h4AQZVU-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#header h3{
+    text-align:center;
+    padding:20% 0 30% 0;
+    font-weight: 700;
+}
+main h3{
+    background-color:#1865f2;
+    color:white;
+    padding: 1% 1%;
+}
+ul{
+    list-style:none;
+}
+.mentee img{
+    padding-left:8%;
+    border-radius: 50%;
+}
+.course-head{
+    color:#1865f2;
+    float: left;
+}
+.cpp li ,.java li, .webdev li{
+    clear: left;
+}
+.special{
+    width:40%;
+    height:50%;
+    padding:1% 0;
+}
+.cpp .container-fluid, .java .container-fluid, .webdev .container-fluid{
+    background-color: #F5F5F3;
+}
+ul li{
+    font-family: 'Poppins', sans-serif;
+}
+main button{
+    color:white;
+    background-color: limegreen;
+    border:1px solid white;
+}
+.course-thick{
+    height:64px;
+}
+.course-thick button{
+    height:55%;
+}
+.cpp li , .java li {
+    margin-top:5%;
+}
+.webdev li{
+    margin-top:5%;
+}
+.mentee p{
+    background-color: #F5F5F3;
+    padding:3% 3%;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #000087;
+    color:white;
+}
+footer ul a{
+    color:grey;
+}
+.icons{
+    margin-left:-12px;
+}
+.fa {
+    padding:7px;
+}
+.cpp .stage li:first-child ,.java .stage li:first-child ,.webdev .stage li:first-child{
+    list-style-image: url(./images/list-img.jpg);
+}
+.cpp .stage li:last-child , .java .stage li:last-child , .webdev .stage li:last-child{
+    list-style-image: url(./images/list-lock.jpg);
+}
+@media (max-width:1400px){
+    #header{
+        margin: 6% 0 4% 0;
+    }
+}
+@media (max-width:768px){
+    .header{
+        height:300px;
+    }
+}
+@media (max-width:400px){
+    .header{
+        height:150px;
+    }
+    #header h3{
+        font-size:90%;
+    }
+    .mentee{
+        padding-left:7%;
+    }
+    footer .extra ul{
+        margin-left:-13%;
+    }
+    footer .contact ul{
+        margin-left: -70px;
+    }
+}

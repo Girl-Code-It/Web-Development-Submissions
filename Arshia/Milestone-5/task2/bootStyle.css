@@ -1,0 +1,78 @@
+html,body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    height:100%;
+    width:100%;
+    overflow-x:hidden;
+}
+h3{
+    color: white;
+}
+main h3{
+    color: mediumpurple;
+    padding-top: 3%;
+}
+.card h4{
+    color: rgb(11, 177, 243);
+}
+nav{
+    background-color: pink;
+}
+.navbar-nav{
+    width:100%;
+    color: white;
+}
+header{
+    background-image: url('./images/header-bg.jpg');
+    height: 30%;
+    text-align: center;
+    padding:8%;
+    position:relative;
+}
+.text{
+    width:35%;
+    margin-left:24%;
+    position: absolute;
+    bottom:2;
+    font-size: 200%;
+    color: white;
+    font-family: 'Pacifico', cursive;
+
+}
+.card{
+    margin-top:6%;
+}
+.col-xs img{
+    width:50%;
+    height:auto;
+}
+footer{
+    padding:3.5% 2%;
+    width:100%;
+    height:auto;
+    background-color: darkgoldenrod;
+}
+main{
+    background-color: #E1F7ED;
+    padding: 2% 0 2% 0;
+}
+h4{
+    padding:2%;
+}
+footer h4{
+    color:white;
+}
+footer .row{
+    width:100%;
+}
+footer .d-flex{
+    width:100%;
+}
+footer p ,footer ul{
+    font-size:120%;
+}
+footer ul li a{
+    color:pink;
+    text-decoration: none;
+}
