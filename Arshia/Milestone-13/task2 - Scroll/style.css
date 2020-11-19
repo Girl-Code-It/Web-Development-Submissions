@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: tomato;
+}
+.main{
+    width:60%;
+    height:auto;
+    background-color: white;
+    margin:0 auto;
+}
+img{
+    float:right;
+    opacity:0;
+}
+.first-img{
+    margin:8px 0px 0px 8px;
+    transform:translateX(30px);
+    transition: all 0.8s ease-in;
+}
+.sec-img{
+    clear:right;
+    float:left;
+    margin:8px 8px 8px 0px;
+    transform:translateX(-30px);
+}
+.slide-in-active{
+    opacity:1;
+    transform: translateX(0);
+}

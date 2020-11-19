@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+.clock{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-color:black;
+    margin-left:40%;
+    margin-top: 10%;
+    position:relative;
+}
+.hand{
+    width:105px;
+    height:5px;
+    background-color: rgb(12, 148, 226);
+    top:50%;
+    position:absolute;
+    margin-left:20px;
+    transform-origin: 100%;
+    transform:rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0, 2.62, 1, 1);
+}
+.minutes-arm{
+    width:90px;
+    margin-left:14%;
+    background-color:aqua;
+}
+.hours-arm{
+    width:70px;
+    margin-left:22%;
+    background-color: white;
+}

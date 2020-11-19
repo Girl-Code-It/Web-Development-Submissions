@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Milestone-9</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Milestone-9</h2>
+  <hr>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Question-1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Question-2</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>QUESTIONS</h3>
+      <a data-toggle="tab" href="#menu1" class="active">Question-1</a>
+      <p>You are now a Head-Librarian and you want to organize the data of many books available on your computer. Create a ‘books’ object consisting of :<br>
+      Properties: author (string), title (string), pages (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty).<br>
+      Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()</p>
+      <a data-toggle="tab" href="#menu2">Question-2</a>
+      <p>You are stuck at an empty island, all you can see are whales around. They can help you, but don’t understand your language. Create a program which converts your given sentences (string) into whale language.<br><br>
+        This is the criteria for Whale language :<br>
+        1. The strings should contain any constants.<br>
+        2. Double the presence of any ‘u’s or ‘e’s in the string.
+      </p>
+    </p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Question-1</h3>
+      <p>You are now a Head-Librarian and you want to organize the data of many books available on your computer. Create a ‘books’ object consisting of :<br>
+      Properties: author (string), title (string), pages (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty).<br>
+      Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()</p>
+      <br>
+      <pre>
+        <code>
+          &ltscript&gt
+              
+                var books = {
+                author: "The Alchemist",
+                title: "Paulo Coelho",
+                pages: 179,
+                isCheckedOut: false,
+                ratings: [],
+              
+                getAverageRating: function (sum) {
+                  return (sum) / 3;
+                },
+                toggleCheckOutStatus: function () {
+                  if (isCheckedOut == true) {
+                    isCheckedOut = false;
+                  } else {
+                    isCheckedOut = false;
+                  }
+                },
+                addRating: function (r1, r2, r3) {
+                  return r1 + r2 + r3;
+                },
+              };
+              
+              document.querySelector(".title").innerHTML = "Book name: " + books.title + "&lt/br&gt";
+              document.querySelector(".author").innerHTML = "Author name: " + books.author + "&lt/br&gt";
+              document.querySelector(".pages").innerHTML = "Pages in the book are: " + books.pages + "&lt/br&gt";
+              document.querySelector(".checkout").innerHTML = "Available: " + books.isCheckedOut + "&lt/br&gt";
+              var sum=books.addRating(4.3, 4.2, 5);
+              document.querySelector(".ratings").innerHTML = "Average rating is: " + books.getAverageRating(sum);
+
+          &lt/script&gt 
+        </code>
+      </pre>
+      <h4>Output :</h4>
+      <div class="jumbotron" style="background-color:#222; color:white;">
+        <span class="author"></span>
+        <span class="title"></span>
+        <span class="pages"></span>
+        <span class="checkout"></span>
+        <span class="ratings"></span>
+      </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Question-2</h3>
+      <p>You are stuck at an empty island, all you can see are whales around. They can help you, but don’t understand your language. Create a program which converts your given sentences (string) into whale language.<br><br>
+        This is the criteria for Whale language :<br>
+        1. The strings should contain any constants.<br>
+        2. Double the presence of any ‘u’s or ‘e’s in the string..
+      </p>
+      <pre>
+        <code>
+          &ltscript&gt
+              function convert(){
+                  var input = document.getElementById("input").value;
+                  document.getElementById("string").innerHTML = input.replace(/e/g,"ee").replace(/u/g,"uu");
+              }
+          &lt/script&gt
+        </code>
+      </pre>
+      <h4>Output :</h4>
+      <div class="jumbotron" style="background-color:#222; color:white;">
+        <p>Enter a sentence you want to convert :</p>
+        <input type="text" style="color:black; width:75%;" id="input">
+        <button onclick="convert()" style="color:black;">Convert</button><br><br>
+        <p>Whale Language :</p>
+        <span id="string"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <script>
+            //Question-1
+                var books = {
+                author: "The Alchemist",
+                title: "Paulo Coelho",
+                pages: 179,
+                isCheckedOut: false,
+                ratings: [],
+              
+                getAverageRating: function (sum) {
+                  return (sum) / 3;
+                },
+                toggleCheckOutStatus: function () {
+                  if (isCheckedOut == true) {
+                    isCheckedOut = false;
+                  } else {
+                    isCheckedOut = false;
+                  }
+                },
+                addRating: function (r1, r2, r3) {
+                  return r1 + r2 + r3;
+                },
+              };
+              
+              document.querySelector(".title").innerHTML = "Book name: " + books.title + "<br>";
+              document.querySelector(".author").innerHTML = "Author name: " + books.author + "<br>";
+              document.querySelector(".pages").innerHTML = "Pages in the book are: " + books.pages + "<br>";
+              document.querySelector(".checkout").innerHTML = "Available: " + books.isCheckedOut + "<br>";
+              var sum=books.addRating(4.3, 4.2, 5);
+              document.querySelector(".ratings").innerHTML = "Average rating is: " + books.getAverageRating(sum);
+
+            //Question-2
+              function convert(){
+                  var input = document.getElementById("input").value;
+                  document.getElementById("string").innerHTML = input.replace(/e/g,"ee").replace(/u/g,"uu");
+              }
+          </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        <br /><br />
+        <label for="time">Registration Time: </label>
+        <select name="time" id="time" required>
+            <option value="Early">Early</option>
+            <option value="Late">Late</option>
+        </select>
+        <br /><br />
+        <button type="submit">Submit</button>
+    </form>
+    <br /><br />
+    <div class="main"></div>
+
+
+    <script>
+        let form = document.querySelector("form");
+        let main = document.querySelector(".main");
+
+        function display() {
+            let age = document.querySelector('#age').value;
+            let regTime = document.querySelector('#time').value;
+            let raceNumber, startTime;
+            if (age < 18) {
+                raceNumber = 1 + Math.floor(Math.random() * 999);
+                startTime = "12:30 pm";
+            }
+            else {
+                raceNumber = 1000 + Math.floor(Math.random() * 999);
+                if (regTime == "Early") {
+                    startTime = "9:30 am";
+                }
+                else if (regTime == "Late") {
+                    startTime = "11:00 am";
+                }
+            }
+            main.insertAdjacentHTML('afterbegin', `<p>Your Race Number: ${raceNumber}</p>`)
+            main.insertAdjacentHTML('afterbegin', startTime)
+        }
+        form.addEventListener("submit", display());
+
+    </script>
+
+</body>
+
+</html>

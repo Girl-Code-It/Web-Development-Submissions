@@ -1,0 +1,414 @@
+
+body {
+    background: url(./images/school.jpg)no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-weight:400;
+}
+input[type="button"],input[type="submit"],input[type="text"],input[type="email"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	 font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-weight:400;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	
+}
+.clear {
+	clear:both;
+}
+p{
+	margin:0;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+label{
+	margin:0;
+	
+}
+textarea{
+	
+}
+img {
+    width: 100%;
+}
+footer{
+	
+}
+footer a {
+	
+}
+
+/*--/Reset code--*/
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    text-transform:capitalize;
+    letter-spacing: 3px;
+    margin: 40px 0 40px 0;
+    color: #fff;
+     font-family: 'Josefin Sans', sans-serif;
+}
+.w3l-main{
+	width:45%;
+	margin: 0 auto;
+}
+.w3l-from {
+    flex-basis: 300px;
+    padding: 3em;
+    justify-content: center;
+	background: rgba(180, 171, 171, 0.34);
+}
+label.head {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 2px;
+    margin: 2px;
+    display: block;
+    color: #fff;
+}
+span.title{
+	color: #ca5c93;
+}
+span.w3l-star {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #d60026;
+    line-height: 1;
+}
+.w3l-user input[type="text"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    margin: 0px auto 10px;
+    color: #000000;
+}
+.w3l-mail input[type="email"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    margin: 0px auto 10px;
+    color:#000000;
+}
+.w3l-num input[type="text"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+}
+.w3l-date input.date {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto 11px;
+    color: #000000;
+}
+select.form-control {
+	font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 100%;  
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.w3l-options1 .category1 {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+.w3l-options2 .category2 {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 100%;
+    margin: 0  auto 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 1.5;
+}
+.w3l-num {
+    float: left;
+    width: 48%;
+}
+.w3l-date {
+    float: left;
+    width: 48%;
+    margin-left: 4%;
+}
+.w3l-options1 {
+    float: left;
+    width: 48%;
+}
+.w3l-options2 {
+    float: right;
+    width: 48%;
+}
+.gender {
+    float: left;
+    width: 48%;
+}
+.w3l-sym {
+    float: right;
+    width: 48%;
+    margin-left: 4%;
+}
+.w3l-sym input[type="text"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto 10px;
+    color: #000000;
+
+}
+.w3l-right textarea {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    min-height: 100px;
+    border: 1px solid #fff;
+    outline: none;
+    background: #fff;
+    box-sizing: border-box;
+ 
+}
+label.w3l-set {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+    color: #3ce0b4;
+	cursor: pointer;
+}
+label.w3l-head2 {
+    float: left;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+.w3l-left1 {
+    margin-top: 25px;
+}
+
+label.w3l-set2 {
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+label.w3l-head2 {
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+	margin-bottom: 20px;
+	color: #3ce0b4;
+  
+}
+.btn input[type="submit"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto 0px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    outline: none;
+	cursor: pointer;
+    display: block;
+	color: #fff;
+	background:rgba(199, 65, 132, 0);
+
+}
+.btn input[type="submit"]:hover{
+	background-color: #005ba4;
+	
+}
+footer {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    line-height: 1.8em;
+}
+footer a {
+    font-size: 15px;
+    font-weight: 600;
+	text-transform: capitalize;
+    text-decoration: none;
+	color: #fff;
+}
+footer a:hover {
+	color: #ffd200;
+}
+/*-- input-effect --*/
+.styled-input.agile-styled-input-top {
+    margin-top: 0;
+} 
+.styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{
+    font-size: .9em;
+    color: #fff;
+    top: -1.5em;
+    -webkit-transition: all 0.125s;
+	-moz-transition: all 0.125s; 
+	-o-transition: all 0.125s;
+	-ms-transition: all 0.125s;
+    transition: all 0.125s;
+}
+.styled-input {
+	width: 100%;
+    position: relative;
+    margin: 0 0;
+    color: #fff;
+}
+.w3l-lef1 h3 {
+    font-size: 25px;
+    color: #ffd200;
+    margin: 2em 0 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.styled-input:nth-child(1),.styled-input:nth-child(3){
+	margin-left:0;
+}
+.textarea-grid{
+	float:none !important;
+	width:100% !important;
+	margin-left:0 !important;
+}
+.styled-input label {
+	color: #8c8c8c;
+    color: #bfbfbf;
+    padding: 0.5em .9em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: .9em;
+    display: block;
+    line-height: 1em;
+	color:#fff;
+	font-family: 'Poppins', sans-serif;
+}
+.styled-input input ~ span,.styled-input textarea ~ span {
+	display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.125s;
+    -moz-transition: all 0.125s;
+    transition: all 0.125s;
+}
+.styled-input textarea ~ span { 
+    bottom: 5px; 
+}
+.styled-input input:focus.styled-input textarea:focus { 
+	outline: 0; 
+} 
+.styled-input input:focus ~ span,.styled-input textarea:focus ~ span {
+	width: 100%;
+	-webkit-transition: all 0.075s;
+	-moz-transition: all 0.075s;  
+	transition: all 0.075s; 
+}
+

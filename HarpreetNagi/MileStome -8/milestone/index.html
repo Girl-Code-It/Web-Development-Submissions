@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RACE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+
+
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+        color: #0099FF;
+    }
+
+
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 50%;
+        height:100vh;
+        box-shadow: 1px 1px 9px #000000;
+        border-radius: 5px;
+    }
+    #age{
+        width: 50%;
+        height:5vh;
+        border: none;
+        
+        border-radius:1px;
+        border-bottom: 2px solid  #0099FF;
+        display:inline-block;
+    }
+    #age1{
+        width: 50%;
+        height:5vh;
+        border: none;
+        
+        border-radius:1px;
+        border-bottom: 2px solid  #0099FF;
+        display:inline-block;
+    }
+
+    ::placeholder{
+        color: #0099FF;
+    }
+
+    svg{
+        position: absolute;
+        top: 77%;
+        width: 100%;
+        left: 0%;
+        border-radius: 5px;
+        transition: 2s ease-in-out;
+    }
+
+    .svg path {
+        transition: 2s ease-in-out;
+         d: path("M0,64L60,69.3C120,75,240,85,360,117.3C480,149,600,203,720,213.3C840,224,960,192,1080,202.7C1200,213,1320,267,1380,293.3L1440,320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+    }
+
+    button{
+
+        border-radius: 50px ;
+        background:#0099ff;
+        width: 20%;
+        height: 8vh;
+        color: #ffffff;
+        border: none;
+        box-shadow: 0px 0px 6px #000000;
+        margin: 4% 0;
+    }
+    
+
+
+    
+
+
+    
+</style>
+<body>
+<div class="container">
+    <h1>HELLO <span class="name"></span></h1>
+  
+    <input class="userName" id="age" type="text" placeholder="name">
+    <br>
+    <input id="age" type="number" placeholder="age">
+    <br>
+    <input id="age1" type="number" placeholder="time">
+    <br>
+    <button>Submit</button>
+    <br>
+    <br>
+    <h2 id="inputAge"></h2>
+    <br>
+    <br>
+    <h2 id="inputTime"></h2>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,197.3C480,181,600,107,720,64C840,21,960,11,1080,10.7C1200,11,1320,21,1380,26.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+      </svg>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+
+$("button").on("click", function()
+{
+
+    var name =($(".userName").val() );
+   
+$(".name").text( "," + name);
+    
+
+$("svg").addClass("svg");
+
+
+
+
+
+var age = ($("#age").val() , 10 );
+var time = ($("#age1").val() , 10 );
+var num;
+
+if (age <= 18){
+
+        num = Math.floor(Math.random()*1001);
+        
+
+        $("#inputAge").text( "Race Number "  + num);
+        $("#inputTime").text( "🎉🎉Race Start at "  + "12:30" +  "pm");
+
+}
+else{
+
+
+        num = Math.floor(Math.random()*1001);
+        num = num + 1000;
+        $("#inputAge").text( "Race Number "  + num);
+
+        if(time > 9)
+        {
+            $("#inputTime").text( " 🎉🎉Race Start at "  + "11:00" + "am");
+        }
+        else{
+            $("#inputTime").text( " 🎉🎉Race Start at "  + "9:30" + "am");
+        }
+}
+
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

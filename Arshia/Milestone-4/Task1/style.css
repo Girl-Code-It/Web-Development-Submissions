@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /*margin-left: 15%;*/
+    background-color:#E1F7ED;
+    /*width: 80%;*/
+    max-width: 1000px;
+    margin: auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+.logo{
+    font-family: 'Lily Script One', cursive;
+    font-size: 25px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    cursor: pointer;
+}
+legend{
+    color: hotpink;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+section{
+    margin: 5% 0;
+}
+#me{
+    padding: 2% 2%;
+    color: brown;
+}
+#me img{
+    float: left;
+    padding-right: 2%;
+}
+#work{
+    clear: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 2%;
+}
+.work1, .work2, .work3{
+    margin-bottom: 10%;
+    color: brown;
+}
+.work1 p, .work2 p, .work3 p{
+    padding-top: 2%;
+}
+.work1 img, .work3 img {
+    float: left;
+    margin-right: 20%;
+}
+.work2 img{
+    float: right
+}
+.work2 p{
+    width: 50%;
+    margin:5% , 5%;
+}
+.work2, footer{
+    clear: left;
+}
+.work3 {   
+    clear: right;
+}
+section h3{
+    text-align: center;
+}
+#foot{
+    margin-bottom: 5%;
+    padding: 2% 2%;
+}
+.contact{
+    padding-right: 45%;
+    list-style: none;
+}
+.contact li{
+   margin-bottom: 5%;
+}
+.contact li a{
+   text-decoration: none;
+}
+#foot img{
+    float: right;
+}
+.fa{
+   color:rgb(16, 230, 194);
+   padding-right: 5%;
+}
+button{
+    width: 20%;
+    height: 5%;
+    background-color: hotpink;
+    color:white;
+    border: none;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
