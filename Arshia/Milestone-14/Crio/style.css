@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+/*bot*/
+.bot{
+    position:fixed;
+    top:90%;
+    right:0;
+    background-color: #FFB535;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    z-index: 2;
+}
+.bot i{
+    font-size:30px;
+    margin-top:10%;
+    margin-left:12%;
+}
+/*Nav*/
+nav{
+    background-color: white;
+}
+.navbar{
+    padding-left:3%;
+}
+.navbar-brand{
+    margin-right:2em;
+}
+.navbar-nav a{
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.2s;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2em;
+}
+.navbar-nav a:hover{
+    color: #0EB29F;
+}
+.navbar-nav button{
+    background-color: white;
+    color: #0EB29F;
+    border: 2px solid #0EB29F;
+    margin-right: 10px;
+    transition: all 0.4s;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sign-in{
+    margin-left: 8em;
+}
+.sign-in:hover{
+    background-color: #0EB29F;
+    color:white;
+}
+.navbar-nav button.text-warning{
+    background-color: white;
+}
+.collapse-style{
+    background-image:linear-gradient(#0EB29F,#2bcebb);
+    text-align: center;
+    padding:9% 0;
+}
+.no-logo{
+    display:none;
+}
+.shift-toggle-btn{
+    margin-left:80%;
+}
+.place-item{
+    padding:3% 0;
+}
+.place-btn{
+    margin:2% 4%;
+}
+/*header*/
+.header-container{
+    background-image: url(./images/header-bg.jpg);
+    background-repeat: repeat-x;
+}
+.header-container h1{
+    padding-top:16%;
+}
+.header-text{
+    margin:10% 20% 0 20%;
+    background-color: white;
+    padding:0 2%;
+}
+h1{
+    font-size:45px;
+    padding-bottom: 3%;
+}
+.header-container h4{
+    font-size:28px;
+    color:grey;
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+.header-container button{
+    width:100%;
+    height:100%;
+}
+.header-container button {
+    background-color: #0EB29F;
+    color:white;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 20px;
+}
+.header-container button:hover{
+    background-color: #0b554c;
+}
+/*Video*/
+.video{
+    margin-top: 7%;
+    background-image: url(./images/video-bg.jpg);
+    background-size: cover;
+    padding:2% 2%;
+}
+ h5{
+    padding-top: 2%;
+    margin-bottom:1.5%;
+    color:gray;
+}
+h3{
+    margin-bottom: 5%;
+}
+.benefits-container{
+    padding:2%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    border:1px solid grey;
+    padding:1.5% 2%;
+    margin:2% 2%;
+    font-weight: 600;
+    font-size: 110%;
+}
+/*Get started*/
+.get-started{
+    background-color: #094946;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 1%;
+}
+.get-started button{
+    background-color: #073634;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 20px;
+}
+.free{
+    border-radius: 10px;
+    color:#073634;
+}
+
+/*Main-advantage slider*/
+.advantage-carousel{
+    background-image: url();
+    background-size: cover;
+    padding: 3%;
+}
+.slider-all-container{
+    margin:0 auto;
+    width:90%;
+    overflow-x: hidden;
+}
+.focus-on{
+    width:100%;
+    display: flex;
+}
+.control-btn{
+    width:30px;
+    height:30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+    margin:0;
+}
+.control-text{
+    margin-left: -12%;
+}
+/* Search/mail */
+.search{
+    background-color: #031718;
+    color: white;
+    padding:5% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.search h2{
+    margin-bottom: 0;
+}
+.search h5{
+    padding: 0;
+    color: white;
+    margin-bottom: 5%;
+}
+.hashtag-content .d-flex{
+   padding-left:12%;
+}
+.search input{
+    width:60%;
+    height:3.3em;
+}
+.search button{
+    padding:0 1%;
+    border: none;
+    background-color: tomato;
+    color: white;
+}
+/*Courses*/
+.courses{
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+}
+.card{
+    padding:2% 2%;
+    -webkit-box-shadow: 0 0 16px lightgrey;
+    box-shadow: 0 0 16px lightgrey;
+}
+.card-header{
+    width: 100%;
+    height:50%;
+    padding: 0;
+}
+.card1 .card-header{
+    background-image: url(./images/card1-header-bg.jpg);
+}
+.card2 .card-header{
+    background-image: url(./images/card2-header-bg.jpg);
+    background-size: cover;
+}
+.card-body ul{
+    list-style: none;
+}
+.card-colour{
+    color:tomato;
+}
+ul.stared-list{
+    list-style-image: url(./images/list-star.jpg);
+    margin: 5% 0 0 1%;
+}
+.courses button ,.reviews button{
+    background-color:#0EB29F;
+    color:white;
+    transition: all 0.5s;
+    width: 40wh;
+    height: 8vh;
+}
+.courses button:hover, .reviews button:hover{
+    background-color: #0D7065;
+}
+button.course-learnMore-btn{
+    background-color: white;
+    transition: all 0.5s;
+    color:#0EB29F;
+    border:2px solid #0EB29F;
+    margin-left: 2vw;
+}
+button.course-learnMore-btn:hover{
+    background-color:#0EB29F;
+    color: white;
+}
+/*chat*/
+.chat,.hacktober{
+    margin-top: 2%;
+    background-color: #031718;
+    color:white;
+    padding:2% 2%;
+}
+.chat-text{
+    margin:auto 0;
+}
+.chat-text button{
+    background-color: #0EB29F;
+    color:white;
+    width:50%;
+    height:8vh;
+}
+/*launch*/
+.launch{
+    background-color: #031718;
+    color: white;
+    padding: 4% 1%;
+}
+.launch .row{
+    margin-top: 3%;
+}
+.launch-box{
+    cursor: pointer;
+    background-color: #0EB29F;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid lightgray;
+    height:20vh;
+    margin-top:2%;
+}
+.box-logo{
+    width:12%;
+    height:7vh;
+}
+.launch-box-text h5{
+    color:white;
+}
+/*Review-carousel*/
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    border-radius: 50%;
+}
+/*hacktober*/
+.hacktober button {
+    background-color:#FF216D;
+    color:white;
+    width: 50%;
+    height: 8vh;
+}
+/*News*/
+.news{
+    background-color: #E3E1D5;
+}
+.news h5 a{
+    text-decoration: none;
+    color:black;
+}
+.news h5 a:hover{
+    color:#2AB9A5;
+}
+.news h2{
+    padding:2% 0;
+}
+/*footer*/
+footer{
+    background-color:#0A3360;
+}
+.footer h5,.footer h4{
+    color: white;
+    margin-bottom: 3vh;
+}
+.footer a, .footer h6{
+    color:white;
+    font-weight: 400;
+}
+.social-media a{
+    color:white;
+    font-size: 30px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+/*Media queries*/
+@media screen and (max-width:375px){   
+    .hashtag-content{
+    padding-top: 10%;
+    }
+    h5{
+        font-size: 100%;
+    }
+    h3{
+        font-size: 150%;
+    }
+}
+@media screen and (max-width:)
