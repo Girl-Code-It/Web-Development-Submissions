@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title>Grocery List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			position: absolute;
+			background-image: url('images/bg.jpg');
+			width: 100%;
+			height: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+		}
+		.navbar{
+			background-color: #DAF7A6 ;
+			}
+		li{
+			margin: 50px 0;
+			}
+	</style>
+	<script src="https://kit.fontawesome.com/2c555f038b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class = "navbar" width = "100%" height = "200px" style = "background-color: #DAF7A6;">
+	
+		<h1 style = "margin:0;"><center>Pantry Valley</center></h1>
+		<img src = "images/logopv.jpg" height = "80px" width = "80px" style = "position: relative; top: -20px; left: 20px;">
+		
+	
+	
+		<button type = "button" style = "float:right; margin:auto 10px auto 10px; padding: 5px 20px;"><a href = "#shop">Shop</a></button>
+		<button type = "button" style = "float:right; margin:auto 10px auto 10px; padding: 5px 20px;"><a href = "#about">About</a></button>
+		<button type = "button" style = "float:right; margin:auto 10px auto 0; padding: 5px 0;"><i class="fas fa-search"></i></button>
+		<input type = "search" placeholder = "Search for products " maxlength = "1000" style = "float:right; margin:auto 0 auto 20px; padding: 10px 100px 0 10px;">
+	
+	</div>
+	<div class = "shop">
+		<br>
+		<br>
+		
+		<ul style = "float: right;">
+			<li>
+				<img src = "images/Download Natural Organic Food Background for free.jpg" height = "400px" width = "500px" style = "position: relative; right: 100px; border-radius: 50px;">
+			</li>
+			
+			<li style = "position: relative; right: 50px;"  id = "shop">
+				<img src = "images/Free Milk Carton Box Packaging Mockup PSD.jpg" height = "300" width = "300" >
+				<h3><b>Milk</b></h3>
+				<p>Price - Rs.155</p>
+			</li>
+			
+			<li style = "position: relative; right: 50px;">
+				<img src = "images/Best Regular Black Tea (Chai) in India _ TastedRecipes.png" height = "300" width = "300" >
+				<h3><b>Tea</b></h3>
+				<p>Price - Rs.150. </p>
+			</li>
+			
+			<li style = "position: relative; right: 50px;">
+				<img src = "images/ghee packaging design.jpg" height = "300" width = "300" >
+				<h3><b>Ghee</b></h3>
+				<p>Price - Rs.500 per kg</p>
+			</li>
+			
+			<li style = "position: relative; right: 50px;">
+				<img src = "images/Heritage Rice Co_ - Something Old & Something New (1).png" height = "300" width = "300">
+				<h3><b>Rice</b></h3>
+				<p>Price - Rs.<del>80</del> <ins>70</ins>per kg.</p>
+			</li>
+			
+			<li style = "position: relative; right: 50px;">
+				<img src = "images/Plastic Bag with Red Apples Mockup.jpg" height = "300" width = "300">
+				<h3><b>Fruits</b></h3>
+				<p>Price - Rs.<del>500</del> <ins>350</ins></p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
