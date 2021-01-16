@@ -16,7 +16,6 @@
 - Portfolio: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-3/portfolio.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-3/portfolio.html)
 
 </details>
-<br>
 
 ## CSS
 
@@ -27,8 +26,6 @@
 - Portfolio (continued): [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-4/portfolio2.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=blue&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-4/portfolio2.html)
 
 </details>
-<br>
-
 
 ## Bootstrap
 
@@ -43,8 +40,6 @@
 - Project 2: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-6/project2/project2.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=blue&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-6/project2/project2.html)
 
 </details>
-<br>
-
 
 ## Javascript
 
@@ -69,8 +64,6 @@
 - Drumkit: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-12/index.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=red&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-12/index.html)
 
 </details>
-<br>
-
 
 ## Projects
 ### Milestone 13 (JS Projects - Javascript30)
