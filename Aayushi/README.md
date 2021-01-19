@@ -10,7 +10,7 @@
 
 ### Milestone 2 (HTML-2)
 - Admission Form: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-2/admission-form.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-2/admission-form.html)
-- Fan Page: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-1/fan-page.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-2/fan-page.html)
+- Fan Page: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-2/fan-page.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-2/fan-page.html)
 
 ### Milestone 3 (HTML Project)
 - Portfolio: [![Code](https://img.shields.io/static/v1?label=&message=CODE&color=black&style=for-the-badge&logo=github)](./Milestone-3/portfolio.html)[![Output](https://img.shields.io/static/v1?label=&message=OUTPUT&color=&style=for-the-badge)](https://Aayushi-Mittal.github.io/Web-Development-Submissions/Aayushi/Milestone-3/portfolio.html)
