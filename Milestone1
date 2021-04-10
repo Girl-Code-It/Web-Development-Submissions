@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Munilal Grocery</title>
+</head>
+<body>
+    <h1>Munilal Grocery Store</h1>
+    <p>Welcome to Munilal's Grocery Store. Here you find everything which you need</p>
+    <img src="download (4).jpg" alt="Sorry image can't be load" width="1300" height="500">
+    <h2>Items Availbale : </h2>
+    <ul>
+        <li> <a href="#wheat">Wheat</a></li>
+        <li> <a href="#rice">Rice</a></li>
+        <li><a href="#sugar">Sugar</a></li>
+        <li><a href="#bicket">Bicket</a></li>
+        <li><a href="#milk">Milk</a></li>
+    </ul>
+    <h3>Wheat</h3>
+    <p> <a name="wheat"> Welcome to Wheat corner</a> </p>
+    <img src="wheatimg.jpg" alt="can't load"width="500" height="300"> <br> <br>
+    <p>Best quality of Wheat Available</p>
+    Price : Rs.80/kg
+    <br>
+    <br>
+    <br>
+    <h3>Rice</h3>
+    <p> <a name="rice"> Welcome to Rice corner</a> </p>
+    <img src="riceimg.jpg" alt="can't load"width="500" height="300"> <br> <br>
+    Best quaity of rice available imported from different parts of the country
+    <br> Basmati Rice also in stock now
+    <br> Price : Rs.50/kg
+    <br>
+    <br>
+    <br>
+    <h3>Sugar</h3>
+    <p> <a name="sugar"> Welcome to Sugar corner</a> </p>
+    <img src="sugarimg.jpg" alt="can't load"width="500" height="300"> <br> <br>
+    Good quality of sugar Available imported from UP
+    <br> Price : Rs.45/kg
+    <br>
+    <br>
+    <br>
+    <h3>Bicket</h3>
+    <p> <a name="bicket"> Welcome to Bicket corner</a> </p> <br>
+    <img src="bimg.jpg" alt="can't load"width="500" height="300"> <br> <br>
+    All variety of Bickets Available with different prices
+    Price : Rs.5 <br>
+    Rs.10 <br>
+    Rs20 <br>
+    Rs.25 <br>
+    <br>
+    <br>
+    <br>
+    <h3>Milk</h3>
+    <p> <a name="milk"> Welcome to Milk corner</a> </p>
+    <img src="milk.jpg" alt="can't load"width="500" height="300"> <br> <br>
+    Price : Rs.28/litre
+    <h4> Thank You for visiting Munilal Grocery Store. </h4>
+    <h4>Visit Again</h4>
+</body>
+</html>
